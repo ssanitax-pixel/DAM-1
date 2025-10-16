@@ -1,0 +1,32 @@
+[
+    {
+        "titulo": "Primer artículo",
+        "fecha": "2025-10-16",
+        "autor": "Ana Sánchez Suárez",
+        "contenido": "Este es el contenido del primer artículo"
+    },
+    {
+        "titulo": "Segundo artículo",
+        "fecha": "2025-10-16",
+        "autor": "Ana Sánchez Suárez",
+        "contenido": "Este es el contenido del segundo artículo"
+    },
+    {
+        "titulo": "Tercer artículo",
+        "fecha": "2025-10-16",
+        "autor": "Ana Sánchez Suárez",
+        "contenido": "Este es el contenido del tercero artículo"
+    },
+    {
+        "titulo": "Cuarto artículo",
+        "fecha": "2025-10-16",
+        "autor": "Ana Sánchez Suárez",
+        "contenido": "Este es el contenido del cuarto artículo"
+    },
+    {
+        "titulo": "Quinto artículo",
+        "fecha": "2025-10-16",
+        "autor": "Ana Sánchez Suárez",
+        "contenido": "Este es el contenido del quinto artículo"
+    }
+]
