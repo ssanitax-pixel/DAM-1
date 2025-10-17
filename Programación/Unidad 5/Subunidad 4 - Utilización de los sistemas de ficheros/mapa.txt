@@ -1,0 +1,9 @@
+/home/ana/Documentos/GitHub/DAM-1/Programación/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/005 - recorrer.py
+/home/ana/Documentos/GitHub/DAM-1/Programación/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/002 - atributos.py
+/home/ana/Documentos/GitHub/DAM-1/Programación/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/001 - listar contenido de carpeta.py
+/home/ana/Documentos/GitHub/DAM-1/Programación/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/mapa.txt
+/home/ana/Documentos/GitHub/DAM-1/Programación/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/004 - suma del tamaño.py
+/home/ana/Documentos/GitHub/DAM-1/Programación/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/003 - formateo el resultado.py
+/home/ana/Documentos/GitHub/DAM-1/Programación/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/008 - escribir en archivo el contenido de la carpeta.py
+/home/ana/Documentos/GitHub/DAM-1/Programación/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/007 - condicicon.py
+/home/ana/Documentos/GitHub/DAM-1/Programación/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/006 - tamaño recursivo.py
