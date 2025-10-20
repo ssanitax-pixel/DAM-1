@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Ana Sánchez Suárez</title>
+    <meta charset="utf-8">
+    <!-- Etiquetas de posicionamiento -->
+    <meta name="description" content="Web de Ana Sánchez Suárez, desarrolladora de aplicaciones multiplataforma">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="keywords" content="programación,curso,diseño,IA,big data,...">
+     <meta name="author" content="Ana Sánchez Suárez">
+     <link rel="icon" href="imagen-provisional.jpg" type="image/jpeg">
+     <meta property="og:title" content="Ana Sánchez Suárez">
+     <meta property="og:description" content="Web de Ana Sánchez Suárez, desarrolladora de aplicaciones multiplataforma">
+     <meta property="og:image" content="imagen-provisional.jpg">
+     <meta property="og:url" content="https://anasanchezsuarez.com">
+     <meta property="og:type" content="website">
+     <style>
+     @font-face{
+        font-family: "ubuntu";
+        src:url(ArtisualDecoRegularItalic_PERSONAL_USE_ONLY.otf);
+      }
+      h1,h2,h3{
+        color:PaleVioletRed;
+        font-family:ubuntu;
+      }
+      body{
+        background:GhostWhite;
+        font-family:sans-serif;
+      }
+      header,main,footer{
+        width:1200px; /* Establece la anchura de los elementos */
+        background:white; /* Establece el fondo de los elementos */
+        margin:auto; /* Centralo en pantalla */
+        padding:20px; /* Pon un poco de margen interior */
+      }
+      nav ul {
+        list-style-type:none; /* anula estilos de lista */
+        margin:0px; /*anula el margen exterior por defecto */
+        padding:0px; /*anula el margen interior por defecto */
+        display:flex; /* Activa flex de izquierda a derecha */
+              gap:10px; /*distancia entre los elementos flexbox o grid */
+        justify-content:center; /* quiero centrar los elementos*/
+        /* https://flexbox.jocarsa.com/ */
+      }
+      nav ul li a{
+        text-decoration:none; /* Anula los estilos de subrayado */
+        color:inherit; /* Le pone el color que deberia tener */
+        color:white; /*fuerzo el color a blanco*/
+        background:indigo; /*el fondo es de un color solido*/
+        padding:5px; /*le pongo margen*/
+        font-size:10px; /*le pongo tamaño de letra*/
+        text-transform:uppercase; /*texto va en mayusculas*/
+        display:block;/*permito a los elementos que sean bloques*/
+        width:60px; /*su anchura es de 60 pixeles*/
+        text-align:center; /*Alineo el texto al centro*/
+        /* validacion online: https://validator.w3.org/ */
+      }
+      #inicio img{
+        width:50%; /* No quiero que la imagen se salga */
+      }
+      .bloque{
+        display:flex; /*el bloque de texto e imagen quiero que sea flex*/
+        gap:20px;/*distancia entre los elementos*/
+      }
+      .bloque img{
+        flex:1; /*opcupa una unidad flex*/
+        width:50%;/*ocupa el 50% de la anchura*/
+        height:50%;/*ocupa el 50% de la altura*/
+      }
+      .bloque p{
+        flex:1;/*ocupa una unidad flex*/
+        font-size:15px; /*edito el tamaño del texto*/
+        text-align:justify; /*edito la alineacion del texto*/
+      }
+      #trabajofinal .bloque{
+        flex-direction:row-reverse; /*invertimos el orden para el elem. */
+      }
+     </style>
+  </head>
+  <body>
+    <header>
+      <!-- Esto es la cabecera de la página -->
+      <h1>Ana Sánchez Suárez</h1>
+      <h2>Desarrolladora de aplicaciones multiplataforma</h2>
+      <nav>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobremi">Sobre mi</a></li>
+          <li><a href="#trabajofinal">Trabajo final</a></li>
+          <li><a href="#portafolio">Portafolio</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+      <!-- Esto es el contenido principal -->
+      <section id="inicio">
+        <h3>Inicio</h3>
+        <img src="imagen-provisional.jpg" alt="Ana Sánchez Suárez">
+      </section>
+       <section id="sobremi">
+        <h3>Sobre mi</h3>
+        <p>Soy Ana Sánchez Suárez, un profesional apasionado por la tecnología, la formación y la creatividad digital. A lo largo de mi trayectoria, he trabajado en diversas áreas relacionadas con el desarrollo de software, la enseñanza de programación y la creación de contenidos visuales en 3D. Mi objetivo es ofrecer soluciones innovadoras y efectivas en el mundo de la tecnología y la formación.</p>
+      </section>
+       <section id="trabajofinal">
+        <h3>Trabajo Final</h3>
+        <div class="bloque">
+          <img src="imagen-provisional.jpg" alt="Ana Sánchez Suárez">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </section>
+       <section id="portafolio">
+        <h3>Portafolio</h3>
+        <div id="contenedorportafolio">
+          <article>
+             <h4>Elemento de portafolio</h4>
+             <p>Descripción del elemento</p>
+             <img src="imagen-provisional.jpg" alt="Ana Sánchez Suárez">
+          </article>
+          <article>
+             <h4>Elemento de portafolio</h4>
+             <p>Descripción del elemento</p>
+             <img src="imagen-provisional.jpg" alt="Ana Sánchez Suárez">
+          </article>
+          <article>
+             <h4>Elemento de portafolio</h4>
+             <p>Descripción del elemento</p>
+             <img src="imagen-provisional.jpg" alt="Ana Sánchez Suárez">
+          </article>
+          <article>
+             <h4>Elemento de portafolio</h4>
+             <p>Descripción del elemento</p>
+             <img src="imagen-provisional.jpg" alt="Ana Sánchez Suárez">
+          </article>
+          <article>
+             <h4>Elemento de portafolio</h4>
+             <p>Descripción del elemento</p>
+             <img src="imagen-provisional.jpg" alt="Ana Sánchez Suárez">
+          </article>
+          <article>
+             <h4>Elemento de portafolio</h4>
+             <p>Descripción del elemento</p>
+             <img src="imagen-provisional.jpg" alt="Ana Sánchez Suárez">
+          </article>
+          <article>
+             <h4>Elemento de portafolio</h4>
+             <p>Descripción del elemento</p>
+             <img src="imagen-provisional.jpg" alt="Ana Sánchez Suárez">
+          </article>
+          <article>
+             <h4>Elemento de portafolio</h4>
+             <p>Descripción del elemento</p>
+             <img src="imagen-provisional.jpg" alt="Ana Sánchez Suárez">
+          </article>
+          <article>
+             <h4>Elemento de portafolio</h4>
+             <p>Descripción del elemento</p>
+             <img src="imagen-provisional.jpg" alt="Ana Sánchez Suárez">
+          </article>
+        </div>
+      </section>
+       <section id="contacto">
+        <h3>Contacto</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d414497.63064825995!2d-1.0295638937500018!3d39.168675474193435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2ses!4v1759912118914!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form>
+          <label for="nombre">Introduce tu nombre</label>
+          <input type="text" id="nombre">
+          <label for="email">Introduce tu email</label>
+          <input type="email" id="email">
+          <label for="mensaje">Introduce tu mensaje</label>
+          <textarea id="mensaje"></textarea>
+          <input type="submit">
+        </form>
+      </section>
+    </main>
+    
+    <footer>
+      <!-- Esto es el pié de página -->
+      <a href="https://github.com/ssanitax-pixel">GitHub</a>
+      <a href="https://www.linkedin.com/in/ana-s%C3%A1nchez-su%C3%A1rez-348660240/">LinkedIn</a>
+    </footer>
+  </body>
+</html>
+
