@@ -1,0 +1,12 @@
+{
+    "datos personales": {
+        "nombre": "Ana",
+        "apellidos": "Sánchez Suárez",
+        "email": "ssanitax@gmail.com",
+        "telefono":"722289695",
+        "direccion":"La calle de Ana",
+        "codigo_postal":"23700"
+    },
+    "experiencia": "",
+    "formacion": ""
+}
