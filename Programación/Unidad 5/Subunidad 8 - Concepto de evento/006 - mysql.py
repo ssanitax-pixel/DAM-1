@@ -1,4 +1,7 @@
 # pip3 install mysql-connector-python
+# sudo apt install libmysqlclient-dev python3-mysql.connector
+# solo si da error de ssl en shocket:
+# pip3 install --user --upgrade mysql-connector-python --break-system-packages
 import mysql.connector
 
 conexion = mysql.connector.connect(
@@ -15,7 +18,8 @@ cursor.execute('''
         "12345678Z",
         "Ana",
         "Sánchez",
-        "ana@gmail.com"
+        "ana@gmail.com",
+        "la casa de Ana"
     );
 ''')
 conexion.commit()
