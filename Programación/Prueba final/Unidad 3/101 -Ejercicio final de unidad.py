@@ -41,7 +41,7 @@ while intentos < 6:
     
     # Comprobar si el intento es correcto
     if intento == numero_secreto:
-        print("¡Felicidades! Adivinaste el número secreto" +str(numero_secreto)+" en ",intentos," intentos.")
+        print("¡Felicidades! Adivinaste el número secreto " +str(numero_secreto)+" en ",intentos," intentos.")
         break  # Finaliza el juego si el usuario adivinó correctamente
     elif intento < numero_secreto:
         print("Demasiado bajo.")
