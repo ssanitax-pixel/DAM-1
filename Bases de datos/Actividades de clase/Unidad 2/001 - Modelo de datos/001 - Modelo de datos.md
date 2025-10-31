@@ -78,6 +78,7 @@ SELECT * FROM Cliente;
 
 Al querer visualizar la tabla, se verá así:
 
+```
 +-----------+--------+-----------+-----------------+
 | dni       | nombre | apellidos | email           |
 +-----------+--------+-----------+-----------------+
@@ -85,6 +86,7 @@ Al querer visualizar la tabla, se verá así:
 | 26525959J | Juan   | Pérez     | juan@gmail.com  |
 | 26525961S | María  | López     | maria@gmail.com |
 +-----------+--------+-----------+-----------------+
+```
 
 ---
 
