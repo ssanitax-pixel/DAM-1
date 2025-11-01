@@ -1,0 +1,567 @@
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 1 - Flujos. Tipos bytes y caracteres. Clases relacionadas/002 - ahora leemos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 1 - Flujos. Tipos bytes y caracteres. Clases relacionadas/clientes.txt
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 1 - Flujos. Tipos bytes y caracteres. Clases relacionadas/003 - creador agenda.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 1 - Flujos. Tipos bytes y caracteres. Clases relacionadas/001 - escribir texto a archivo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 1 - Flujos. Tipos bytes y caracteres. Clases relacionadas/agenda.txt
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información de ficheros/009 - crear cliente.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información de ficheros/001 - escribir.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información de ficheros/010 - guardo con pickle a binario.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información de ficheros/008 - leer pickle.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información de ficheros/006 - recorrer la lista.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información de ficheros/004 - leer una línea.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información de ficheros/002 - apendizar.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información de ficheros/005 - leer varias lineas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información de ficheros/011 - recupero los datos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información de ficheros/003 - añadir salto de linea.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información de ficheros/007 - pickle escribir.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información de ficheros/basededatos.txt
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información de ficheros/datos.bin
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información de ficheros/clientes.bin
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 2 - Ficheros de datos. Registros/004 - ahora accedemos a las parejas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 2 - Ficheros de datos. Registros/005 - una pequeña decoración.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 2 - Ficheros de datos. Registros/002 - leer json.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 2 - Ficheros de datos. Registros/008 - articulo.html
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 2 - Ficheros de datos. Registros/011 - arranco flask.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 2 - Ficheros de datos. Registros/010 - Instalar servidor.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 2 - Ficheros de datos. Registros/006 - blog.html
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 2 - Ficheros de datos. Registros/blog.json
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 2 - Ficheros de datos. Registros/003 - leemos linea a linea.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 2 - Ficheros de datos. Registros/007 - secciones.html
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 2 - Ficheros de datos. Registros/001 - leer archivo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 2 - Ficheros de datos. Registros/012 - frankenstein.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 2 - Ficheros de datos. Registros/009 - estilos minimos.html
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 2 - Ficheros de datos. Registros/blog.txt
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 4 - Utilización de los sistemas de ficheros/001 - listar contenido en carpeta.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 4 - Utilización de los sistemas de ficheros/003 - formateo de resultado.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 4 - Utilización de los sistemas de ficheros/007 - condición.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 4 - Utilización de los sistemas de ficheros/006 - tamaño recursivo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 4 - Utilización de los sistemas de ficheros/009 - sobreescribir cada vez.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 4 - Utilización de los sistemas de ficheros/004 - suma del tamaño.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 4 - Utilización de los sistemas de ficheros/002 - atributos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 4 - Utilización de los sistemas de ficheros/mapa.txt
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 4 - Utilización de los sistemas de ficheros/005 - recorrer.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 5 - Lectura y escritura de información/Subunidad 4 - Utilización de los sistemas de ficheros/008 - escribir en el archivo el contenido de la carpeta.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Repaso de clase/Día 19-09-2025/002-Variables.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Repaso de clase/Día 19-09-2025/003-subir escalon de dos en dos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Repaso de clase/Día 19-09-2025/001-ejercicio for.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Repaso de clase/Día 19-09-2025/005-magos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Repaso de clase/Día 19-09-2025/002-escalones.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Repaso de clase/Día 19-09-2025/004-dragones.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Ejercicios prácticos/002 - Simulacro - Baloncesto y categorías.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Ejercicios prácticos/003 - Simulacro - Patitos de goma.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Ejercicios prácticos/001 -  Simulacro - Videojuego y valoración.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Ejercicios prácticos/003 - Simulacro - Patitos de goma.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Ejercicios prácticos/simulacro de realizacion de actividad de subnunidad.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Ejercicios prácticos/002 - Simulacro - Baloncesto y categorías.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Ejercicios prácticos/001 -  Simulacro - Videojuego y valoración.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 2 - Variables/004-variar una variable.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 2 - Variables/005-identificadores permitidos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 2 - Variables/007-Explicación del código.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 2 - Variables/002-variables.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 2 - Variables/006-comentarios.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 2 - Variables/003-salidas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Teoría Unidad 1/Introducción.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 4 - Literales/012-Literales.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 3 - Tipos de datos/009-Entradas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 3 - Tipos de datos/011-Cambio de tipo de dato.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 3 - Tipos de datos/008-Tipos de datos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 3 - Tipos de datos/010-Entrada y problema.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 1 - Estructura y bloques fundamentales/003-Comentarios de tipo docstring.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 1 - Estructura y bloques fundamentales/004-Comentarios de una línea.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 1 - Estructura y bloques fundamentales/002-Entrada.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 1 - Estructura y bloques fundamentales/001-Salida.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 1 - Estructura y bloques fundamentales/005-Estructura recomendada en los programas.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 6 - Operadores y expresiones/016-operadores aritméticos abreviados.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 6 - Operadores y expresiones/017-operadores booleanos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 6 - Operadores y expresiones/014-operaciones aritméticas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 6 - Operadores y expresiones/015-operaciones de comparación.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 6 - Operadores y expresiones/018-Ejercicio1-Calculadora de impuestos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 1 - Identificación de los elementos de un programa informático/Subunidad 5 - Constantes/013-Constantes.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Peticiones/peticiones.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Prueba final/Unidad 2/101 - Ejercicio final de unidad.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Prueba final/Unidad 2/101 - Ejercicio final de unidad.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Prueba final/Unidad 1/101 - Ejercicio final de unidad.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Prueba final/Unidad 1/101 - Ejercicio final de unidad.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Prueba final/Pautas examen/Pautas examen.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Prueba final/Unidad 3/101 -Ejercicio final de unidad.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Prueba final/Unidad 3/101 -Ejercicio final de unidad.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 4 - Creación de métodos/003-metodo getter.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 4 - Creación de métodos/002-metodo set.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 4 - Creación de métodos/008-validacion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 4 - Creación de métodos/007-get saldo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 4 - Creación de métodos/010-ejemplo practico.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 4 - Creación de métodos/012-pequeño programa.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 4 - Creación de métodos/005-clase cuenta bancaria.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 4 - Creación de métodos/001-repaso de los metodos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 4 - Creación de métodos/006-convertir en privadas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 4 - Creación de métodos/009-variable global.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 4 - Creación de métodos/011-creo setters y getters.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 4 - Creación de métodos/004-defino propiedad privada.py.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 7 - Utilización de clases heredadas/002-clase madre animal.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 7 - Utilización de clases heredadas/004-herencia multiple o multinivel.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 7 - Utilización de clases heredadas/003-clase roca.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 7 - Utilización de clases heredadas/001-gatos y perros.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 2 - Estructura y miembros de una clase. Visibilidad/007-crud insertar y listar.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 2 - Estructura y miembros de una clase. Visibilidad/005-leemos los datos del cliente.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 2 - Estructura y miembros de una clase. Visibilidad/008-clase cliente.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 2 - Estructura y miembros de una clase. Visibilidad/004-le preguntamos al usuario.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 2 - Estructura y miembros de una clase. Visibilidad/002- operaciones con listas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 2 - Estructura y miembros de una clase. Visibilidad/003-clase cliente.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 2 - Estructura y miembros de una clase. Visibilidad/001-listas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 2 - Estructura y miembros de una clase. Visibilidad/006-crud.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 6 - Utilización de clases y objetos/001-mi porpia clase.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 6 - Utilización de clases y objetos/003-ahora uso la libreria estandar.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 6 - Utilización de clases y objetos/002-redondeos alza y baja.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 5 - Creación de constructores/007-listado de clientes.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 5 - Creación de constructores/006-ejemplo con cliente.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 5 - Creación de constructores/005-tercera propiedad.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 5 - Creación de constructores/003-constructor con parametros.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 5 - Creación de constructores/002-a un constructor se le pueden pasar parametros.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 5 - Creación de constructores/001-mi propia clase.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 5 - Creación de constructores/004-más parámetros.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 5 - Creación de constructores/001-repaso gato.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 1 - Concepto de clase/003-instanciamos un gato.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 1 - Concepto de clase/010-clase cliente.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 1 - Concepto de clase/005-Elementos principales de una clase.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 1 - Concepto de clase/007-propiedades.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 1 - Concepto de clase/011-Paradigmas en programación.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 1 - Concepto de clase/004-ahora quiero crear otro gato.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 1 - Concepto de clase/002-clase  gato.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 1 - Concepto de clase/006-propiedades y métodos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 1 - Concepto de clase/009-objeto cliente.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 1 - Concepto de clase/008-Introducción a métodos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 1 - Concepto de clase/001- Introducción.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 3 - Creación de propiedades/005-los telefonos deben ser una lista.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 3 - Creación de propiedades/014-bucle infinito.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 3 - Creación de propiedades/001-repaso de propiedades.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 3 - Creación de propiedades/002- las propiedades pueden ser arrays.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 3 - Creación de propiedades/008-creamos las varialbes globales.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 3 - Creación de propiedades/015-desarrollo la insercion de producto.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 3 - Creación de propiedades/006-aplicacion de productos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 3 - Creación de propiedades/012-tomamos la entrada de usuario.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 3 - Creación de propiedades/013-estructura if.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 3 - Creación de propiedades/011-le mostramos al usuario las opciones que tiene.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 3 - Creación de propiedades/009-pseudocodigo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 3 - Creación de propiedades/003-escribir las propiedades de una clase.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 3 - Creación de propiedades/004-leemos propiedades.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 3 - Creación de propiedades/010-voy creando el codigo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 4/Subunidad 3 - Creación de propiedades/007-funciones y clases.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 2/011-entrada calculo y salida.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 2/pautas para entregar una practica.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 2/002-namespace.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 2/001-Introducción.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 2/001-objeto math.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 2/012-libreria matematica.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 2/003-llamada a metodos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 2/004-sparse is better than dense.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 2/009-caballos en la cuadra.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 2/010-prpiedades.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 2/006-fechas en python.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 2/005-propiedades.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 2/007-propiedades de la fecha.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 2/008-destruccion de objetos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 2/Subunidad 5 - Utilización de métodos estáticos/004 - metodo estatico.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 2/Subunidad 5 - Utilización de métodos estáticos/002 - matemáticas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 2/Subunidad 5 - Utilización de métodos estáticos/001 - Gato.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 2/Subunidad 5 - Utilización de métodos estáticos/003 - metodo pseudoestatico.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 1/014-operadores aritmeticos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 1/009-entradas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 1/015-.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 1/020-calculadora.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 1/017-operadoresbooleanos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 1/015-operaciones de comparacion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 1/012-literales.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 1/002-variables.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 1/016-.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 1/003-salidas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 1/001-Holamundo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 1 - Flujos. Tipos bytes y caracteres. Clases relacionadas/agenda.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 1 - Flujos. Tipos bytes y caracteres. Clases relacionadas/001-escribir texto a arcivo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 1 - Flujos. Tipos bytes y caracteres. Clases relacionadas/002-ahora leemos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 1 - Flujos. Tipos bytes y caracteres. Clases relacionadas/003-creador agenda.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 1 - Flujos. Tipos bytes y caracteres. Clases relacionadas/clientes.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 7 - Interfaces gráficas/002 - creamos un boton.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 7 - Interfaces gráficas/007 - micro calculadora.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 7 - Interfaces gráficas/003 - comand en el boton.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 7 - Interfaces gráficas/004 - definimos accion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 7 - Interfaces gráficas/005 - ponemos una etiqueta.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 7 - Interfaces gráficas/008 - calcular.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 7 - Interfaces gráficas/006 - salida en pantalla.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 7 - Interfaces gráficas/001 - tkinter.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/miarchivo.txt
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/012 - ejercicio final.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/004 - solucion al problema.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/009 - algoritmo de compresion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/006 - eliminar archivo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/008 - comprimir.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/010 - comprimir todos los archivos de una carpeta.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/005 - crear un archivo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/002 - eliminar carpeta.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/003 - no se puede crear una carpeta dos veces.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/001 - crear carpeta.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/007 - nuevo archivo con texto.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/comprimido.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/011 - comprimir carpeta.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/009-extraccion de funcion.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/006-mejoro cadenas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/008-documentacion de la funcion.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/funciondivision.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/001-funcion de division.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/005-cadenas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/008-documentacion de la funcion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/003-nuevo fallo.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/002-mejora.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/006-mejoro cadenas.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/003-nuevo fallo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/004-nuevo fallo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/004-nuevo fallo.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/001-funcion de division.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/005-cadenas.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/007-depuracion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/002-mejora.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/funciondivision.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/007-depuracion.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 6/009-extraccion de funcion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 1/005-particula elif.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 1/006-anidacion.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 1/005-particula elif.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 1/006-anidacion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 1/001-condicional.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 1/001-condicional.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Ejercicios unidad 3/003-parametros.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Ejercicios unidad 3/003-parametros.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Ejercicios unidad 3/patito de goma ejercicio.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Ejercicios unidad 3/simulacro de actividad - estructuras de control.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Ejercicios unidad 3/patito de goma ejercicio.txt.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Ejercicios unidad 3/ejercicio raiz cuadrada.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Ejercicios unidad 3/Enunciado Raíz cuadrada.txt.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Ejercicios unidad 3/ejercicio raiz cuadrada.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Ejercicios unidad 3/patito de goma ejercicio.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Ejercicios unidad 3/simulacro de actividad - estructuras de control.md.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Ejercicios unidad 3/Enunciado Raíz cuadrada.txt
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Ejercicios unidad 3/patito de goma ejercicio.txt
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 2/004-mas anidacion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 2/007-while.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 2/005-saltos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 2/002-estructura for.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 2/001-ineficiente.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 2/006-ahora los impares.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 2/simulacro de actividad - estructuras de control.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 2/004-mas anidacion.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 2/006-ahora los impares.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 2/001-ineficiente.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 2/007-while.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 2/008-incremento.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 2/simulacro de actividad - estructuras de control.md.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 2/002-estructura for.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 2/008-incremento.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 2/005-saltos.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 2/003-anidacion.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 2/003-anidacion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/003-parametros.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/006-las funciones retornan.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/007-funcion de sumar.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/001-funciones.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/003-parametros.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/007-funcion de sumar.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/funcionsuma.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/005-varios parametros.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/004-llamada correcta.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/004-llamada correcta.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/002-uso de la funcion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/008-llamada a la funcion suma.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/002-uso de la funcion.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/006-las funciones retornan.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/005-varios parametros.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/001-funciones.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/008-llamada a la funcion suma.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/funcionsuma.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/__pycache__/funcionsuma.cpython-312.pyc
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 3/__pycache__/funcionsuma.cpython-312.pyc.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 5/003-ejemplo no tan traumatico.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 5/004-combinacion.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 5/003-ejemplo no tan traumatico.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 5/001-chivato.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 5/002-el chivato salta.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 5/004-combinacion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 5/002-el chivato salta.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 5/001-chivato.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 4/004-pseudo codigo.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 4/001-tryexcept.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 4/002-error.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 4/004-pseudo codigo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 4/002-error.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 4/003-error con try except.py.zip
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 4/001-tryexcept.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 5 - Creación y eliminación de ficheros y directorios/archivos/Subunidad 4/003-error con try except.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 2 - Ficheros de datos. Registros/004 - ahora accedemos a las parejas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 2 - Ficheros de datos. Registros/002 - leer json.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 2 - Ficheros de datos. Registros/008 - articulo.html
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 2 - Ficheros de datos. Registros/blog.json
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 2 - Ficheros de datos. Registros/003 - leemos linea a linea.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 2 - Ficheros de datos. Registros/001 - leer archivo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 2 - Ficheros de datos. Registros/012 - frankenstein.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 2 - Ficheros de datos. Registros/011- arranco flask.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 2 - Ficheros de datos. Registros/009 - estilos minimos.html
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 2 - Ficheros de datos. Registros/010 - instalar servidor.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 2 - Ficheros de datos. Registros/005 - una pequeña decoracion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 2 - Ficheros de datos. Registros/blog.txt
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros/009 - crear cliente.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros/001 - escribir.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros/010 - guardo con pickle a binario.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros/008 - leer pickle.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros/006 - recorrer la lista.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros/002 - apendizar.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros/005 - leer varias lineas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros/011 - recupero los datos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros/003 - añadir salto de linea.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros/007 - pickle escribir.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros/basededatos.txt
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros/004 - leer una linea.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros/datos.bin
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 3 - Apertura y cierre de ficheros. Modos de acceso. Escritura y lectura de información en ficheros/clientes.bin
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/013 - desarrollo leer.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/011 - apendizamos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/004 - el constructor tiene parametros.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/024 - guardamos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/005 - pantalla de bienvenida.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/022 - guardamos con pickle.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/002 - creamos una clase.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/015 - actualizar es como insertar pero con id.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/012 - pass de momento.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/008 - creamos menu.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/019 - mayusuculas minusculas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/003 - creamos un constructor.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/020 - lower.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/009 - atrapamos las opciones con if.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/014 - imprimimos mejor el cliente.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/007 - creamos lista de entidades.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/018 - confirmacion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/023 - cargo registros si existen.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/021 - cambianos splice por pop.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/006 - bucle infinito.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/clientes.bin
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/017 -eliminar elemento.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/010 - desarrollamos insertar cliente.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 6 - Entrada desde teclado. Salida a pantalla. Formatos de visualización/016 - chivamos el id.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/012 - usuario busca.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/011 - busca en mapa.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/003 - formateo el resultado.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/010 - minibuscador.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/006 - tamaño recursivo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/009 - sobreescribir cada vez.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/001 - listar contenido de carpeta.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/004 - suma del tamaño.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/002 - atributos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/mapa.txt
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/005 - recorrer.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/007 - condicicon.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 4 - Utilización de los sistemas de ficheros/008 - escribir en archivo el contenido de la carpeta.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 8 - Concepto de evento/003 - creo un entry.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 8 - Concepto de evento/001 - recordamos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 8 - Concepto de evento/002 - creo un marco.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 8 - Concepto de evento/008 - seleccionar.sql
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 8 - Concepto de evento/011 - pintamos tablas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 8 - Concepto de evento/012 - frankestein.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 8 - Concepto de evento/004 - creo un boton.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 8 - Concepto de evento/010 - leer le base de datos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 8 - Concepto de evento/006 - mysql.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 8 - Concepto de evento/005 - funcion de insertar.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 8 - Concepto de evento/013 - unir con IA.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 8 - Concepto de evento/009 - insertar en base de datos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 5/Subunidad 8 - Concepto de evento/007 - crear usuario.sql
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 6/006-mejoro cadenas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 6/funciondivision.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 6/005-cadenas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 6/008-documentacion de la funcion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 6/003-nuevo fallo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 6/004-nuevo fallo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 6/001-funcion de division.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 6/007-depuracion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 6/002-mejora.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 6/009-extraccion de funcion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 1/005-particula elif.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 1/006-anidacion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 1/001-condicional.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Ejercicios unidad 3/003-parametros.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Ejercicios unidad 3/Enunciado Raíz cuadrada.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Ejercicios unidad 3/patito de goma ejercicio.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Ejercicios unidad 3/simulacro de actividad - estructuras de control.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Ejercicios unidad 3/ejercicio raiz cuadrada.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Ejercicios unidad 3/patito de goma ejercicio.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 2/004-mas anidacion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 2/005-saltos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 2/002-estructura for.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 2/simulacro de actividad - estructuras de control.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 2/006-ahora los impares.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 2/001-ineficiente.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 2/007-while.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 2/008-incremento.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 2/003-anidacion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 3/001-funciones.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 3/003-parametros.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 3/007-funcion de sumar.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 3/005-varios parametros.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 3/004-llamada correcta.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 3/002-uso de la funcion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 3/008-llamada a la funcion suma.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 3/006-las funciones retornan.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 3/funcionsuma.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 3/__pycache__/funcionsuma.cpython-312.pyc
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 5/003-ejemplo no tan traumatico.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 5/004-combinacion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 5/002-el chivato salta.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 5/001-chivato.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 4/005 - excepción como e.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 4/007 - errores personalizados.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 4/002-error.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 4/004-pseudo codigo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 4/001-tryexcept.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Apuntes de clase/Unidad 3/Subunidad 4/003-error con try except.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 2 - Utilización de objetos/Subunidad 2 - Instanciación de objetos/001-Importamos math.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 2 - Utilización de objetos/Subunidad 6 - Constructores/006-fechas en python.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 2 - Utilización de objetos/Subunidad 6 - Constructores/007-propiedades de la fecha.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 2 - Utilización de objetos/Subunidad 5 - Utilización de métodos en estáticos/002-No instanciación estático.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 2 - Utilización de objetos/Subunidad 5 - Utilización de métodos en estáticos/001-Instanciación.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 2 - Utilización de objetos/Subunidad 3 - Utilización de métodos. Parámetros/002-Ejemplo más esparcido.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 2 - Utilización de objetos/Subunidad 3 - Utilización de métodos. Parámetros/001-Métodos de un objeto.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 2 - Utilización de objetos/Subunidad 1 - Características de los objetos/001-Características.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 2 - Utilización de objetos/Subunidad 4 - Utilización de propiedades/005-propiedades.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 4 - Creación de métodos/007 - get saldo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 4 - Creación de métodos/001 - repaso de los métodos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 4 - Creación de métodos/002  - método set.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 4 - Creación de métodos/006 - convertir en privadas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 4 - Creación de métodos/013 - creo una lista de clientes.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 4 - Creación de métodos/005 - Clase cuenta bancaria.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 4 - Creación de métodos/014 - getters.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 4 - Creación de métodos/011 - creo setters y getters.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 4 - Creación de métodos/010 - ejemplo práctico.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 4 - Creación de métodos/004 - defino propiedad privada.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 4 - Creación de métodos/009 - variable global.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 4 - Creación de métodos/012 - pequeño programa.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 4 - Creación de métodos/003 - método getter.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 4 - Creación de métodos/008 - validación.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 7 - Utilización de clases heredadas/003 - clase roca.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 7 - Utilización de clases heredadas/002 - clase madre animal.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 7 - Utilización de clases heredadas/004 - herencia o multinivel.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 7 - Utilización de clases heredadas/001 - gatos y perros.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 2 - Estructura y miembros de una clase. Visibilidad/002 - operaciones con listas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 2 - Estructura y miembros de una clase. Visibilidad/003 - clase cliente.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 2 - Estructura y miembros de una clase. Visibilidad/008 - clase cliente.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 2 - Estructura y miembros de una clase. Visibilidad/006 - CRUD.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 2 - Estructura y miembros de una clase. Visibilidad/001 - listas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 2 - Estructura y miembros de una clase. Visibilidad/005 - leemos los datos del cliente.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 2 - Estructura y miembros de una clase. Visibilidad/004 - le preguntamos al usuario.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 2 - Estructura y miembros de una clase. Visibilidad/009 - propiedad privada.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 2 - Estructura y miembros de una clase. Visibilidad/007 - CRUD insertar y listar.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 6 - Utilización de clases y objetos/001 - mi nueva clase.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 6 - Utilización de clases y objetos/003 - ahora uso la libería estándar.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 6 - Utilización de clases y objetos/002 - redondeos alza y baja.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 5 - Creación de constructores/004 - más parámetros.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 5 - Creación de constructores/005 - tercera propiedad.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 5 - Creación de constructores/003 - constructor con parámetros.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 5 - Creación de constructores/006 - ejemplo con cliente.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 5 - Creación de constructores/002 - a un constructor se le pueden pasar parámetros.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 5 - Creación de constructores/007 - listado de clientes.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 5 - Creación de constructores/001 - repaso gato.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 1 - Concepto de clase/005 - creo un primer gato.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 1 - Concepto de clase/008 - propiedades.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 1 - Concepto de clase/011 - clase cliente.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 1 - Concepto de clase/007 - propiedades y métodos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 1 - Concepto de clase/006 - puedo crear los gatos que quiera.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 1 - Concepto de clase/009 - introduccuión a métodos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 1 - Concepto de clase/002 - funciones para encapsular.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 1 - Concepto de clase/003 - parametros de la funcion.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 1 - Concepto de clase/001 - codigo sin reutilización.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 1 - Concepto de clase/010 - objeto cliente.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 1 - Concepto de clase/012 - paradigmas en programación.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 1 - Concepto de clase/004 - clases.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 3 - Creación de propiedades/014 - bucle infinito.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 3 - Creación de propiedades/007 - funciones y clases.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 3 - Creación de propiedades/010 - voy creando el codigo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 3 - Creación de propiedades/002 - las propiedades pueden ser arrays.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 3 - Creación de propiedades/011 - le mostramos al usuario las opciones que tiene.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 3 - Creación de propiedades/008 - creamos las variables globales.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 3 - Creación de propiedades/004 - leemos propiedades.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 3 - Creación de propiedades/009 - pseudocodigo.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 3 - Creación de propiedades/012 - tomamos la entrada de usuario.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 3 - Creación de propiedades/015 - desarrollo la insercion de producto.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 3 - Creación de propiedades/013 - estructura if.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 3 - Creación de propiedades/005 - los telefonos deben ser una lista.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 3 - Creación de propiedades/001 - repaso de propiedades.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 3 - Creación de propiedades/003 - escribir las propiedades de una clase.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 4 - Creación de métodos/Subunidad 3 - Creación de propiedades/006 - aplicacion de productos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 2 - Estructuras de repetición/004-while.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 2 - Estructuras de repetición/005-le tenemos que decir cual es el final.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 2 - Estructuras de repetición/003-segunda anidacón.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 2 - Estructuras de repetición/001-for.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 2 - Estructuras de repetición/002-primera anidación.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 4 - Control de excepciones/001-División legal.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 4 - Control de excepciones/003-try.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 4 - Control de excepciones/002-división por cero.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 6 - Prueba, depuración y documentación de la aplicación/002-prueba de carga.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 6 - Prueba, depuración y documentación de la aplicación/006-llamada a la función.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 6 - Prueba, depuración y documentación de la aplicación/003-corrección.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 6 - Prueba, depuración y documentación de la aplicación/004-mas pruebas.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 6 - Prueba, depuración y documentación de la aplicación/funciondividir.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 6 - Prueba, depuración y documentación de la aplicación/005-documentación.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 6 - Prueba, depuración y documentación de la aplicación/001-división.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 6 - Prueba, depuración y documentación de la aplicación/__pycache__/funciondividir.cpython-312.pyc
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 3 - Estructuras de salto/004-parámetros.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 3 - Estructuras de salto/001-break.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 3 - Estructuras de salto/005-varios parámetros.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 3 - Estructuras de salto/003-ejecuto la función.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 3 - Estructuras de salto/002-mi primera función.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 3 - Estructuras de salto/006-las funciones deben retornar.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 5 - Aserciones/001-aserción.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 5 - Aserciones/002-si que hay un error.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 1 - Estructuras de selección/001-Programación paso a paso.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 1 - Estructuras de selección/007-Ejercicio en clase.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 1 - Estructuras de selección/005-entrada.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 1 - Estructuras de selección/004-else if.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 1 - Estructuras de selección/002-Estructura if.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 1 - Estructuras de selección/006-Simulacro de actividad.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Unidad 3 - Uso de estructuras de control/Subunidad 1 - Estructuras de selección/003-else.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 2/001 - Características de los objetos/001 - Características de los objetos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 2/001 - Características de los objetos/001 - Características de los objetos.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 2/002 - Instanciación de objetos/002 - Instanciación de objetos.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 2/002 - Instanciación de objetos/002 - Instanciación de objetos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 2/007 - Destrucción de objetos y liberación de memoria/007 - Destrucción de objetos y liberación de memoria.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 2/007 - Destrucción de objetos y liberación de memoria/007 - Destrucción de objetos y liberación de memoria.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 2/004 - Utilización de propiedades/004 - Utilización de propiedades.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 2/004 - Utilización de propiedades/004 - Utilización de propiedades.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 2/003 - Utilización de métodos. Parámetros/003 - Utilización de métodos. Parámetros.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 2/003 - Utilización de métodos. Parámetros/003 - Utilización de métodos. Parámetros.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 2/006 - Constructores/006 - Constructores.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 2/006 - Constructores/006 - Constructores.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 2/005 - Utilización de métodos estáticos/005 - Utilización de métodos estáticos.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 2/005 - Utilización de métodos estáticos/005 - Utilización de métodos estáticos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 1/101-Ejercicio de final de unidad/101-Ejercicio de final de unidad.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 1/101-Ejercicio de final de unidad/101-Ejercicio de final de unidad.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 1/001 - Estructura y bloques fundamentales/001 - Estructura y bloques fundamentales.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 1/001 - Estructura y bloques fundamentales/001 - Estructura y bloques fundamentales.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 1/006 - Operadores y expresiones/006 - Operadores y expresiones.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 1/006 - Operadores y expresiones/006 - Operadores  y expresiones.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 1/005 - Constantes/005 - Constantes.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 1/005 - Constantes/005 - Constantes.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 1/004 - Literales/004 - Literales.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 1/004 - Literales/004 - Literales.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 1/002 - Variables/002-Variables.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 1/002 - Variables/002-Variables.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 1/003 - Tipos de datos/003 - Tipos de datos.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 1/003 - Tipos de datos/003 - Tipos de datos.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 3/003 - Estructuras de salto/003 - Estructuras de salto.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 3/003 - Estructuras de salto/003 - Estructuras de salto.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 3/002 - Estructuras de repetición/002 - Estructuras de repetición.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 3/002 - Estructuras de repetición/002 - Estructuras de repetición.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 3/006 - Prueba, depuración y documentación de la aplicación/006 - Prueba, depuración y documentación de la aplicación.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 3/006 - Prueba, depuración y documentación de la aplicación/006 - Prueba, depuración y documentación de la aplicación.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 3/005 - Aserciones/005 - Aserciones.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 3/005 - Aserciones/005 - Aserciones.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 3/004 - Control de excepciones/004 - Control de excepciones.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 3/004 - Control de excepciones/004 - Control de excepciones.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 3/001 - Estructuras de selección/001 - Estructuras de selección.md
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 3/001 - Estructuras de selección/001 - Estructuras de selección.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 3/007 - Ejercicio/007 - Ejercicio.py
+/home/vboxuser/Documentos/GitHub/DAM-1/Programación/Actividades de clase/Unidad 3/007 - Ejercicio/007 - Ejercicio.md
