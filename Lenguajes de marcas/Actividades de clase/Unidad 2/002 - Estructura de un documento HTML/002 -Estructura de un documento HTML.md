@@ -35,6 +35,8 @@ Añadimos la sección `<body>`, importante que va dentro de `<html>` y debajo de
         </body>
 ```
 
+---
+
 Así quedaría todo el código de HTML junto:
 
 ```
