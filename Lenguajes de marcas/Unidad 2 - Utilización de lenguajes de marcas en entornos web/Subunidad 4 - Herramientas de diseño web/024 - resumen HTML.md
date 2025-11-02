@@ -16,20 +16,20 @@ Lanzan tres elementos:
 USA adoptó la web/internet de forma muy rápida en los años 90
 
 **Finales de los años 90** surgen "los motores de búsqueda"
--Google (USA)
--Bing (USA)
--Yahoo (USA)
--Yandex (Rusia)
--Baidu (China)
+- Google (USA)
+- Bing (USA)
+- Yahoo (USA)
+- Yandex (Rusia)
+- Baidu (China)
 
 
 **Navegadores web:**
--Chrome
--Opera
--Firefox
--Edge
--Safari
--Vivaldi
+- Chrome
+- Opera
+- Firefox
+- Edge
+- Safari
+- Vivaldi
 
 
 
