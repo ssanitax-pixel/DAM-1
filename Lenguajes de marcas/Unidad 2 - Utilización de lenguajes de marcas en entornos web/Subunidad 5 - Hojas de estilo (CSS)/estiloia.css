@@ -1,0 +1,225 @@
+/* Reseteo de estilos básicos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Poppins', sans-serif; /* Tipografía moderna y elegante */
+  background-color: #f9f0f9; /* Fondo suave y claro */
+  color: #4a2c77; /* Color morado suave para el texto */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #9b59b6, #6a1b9a); /* Fondo degradado morado */
+  color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 3.5em;
+  font-family: 'Dancing Script', cursive; /* Tipografía más artística */
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+header h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #e1bee7; /* Morado claro al pasar el ratón */
+}
+
+/* Main Content */
+main {
+  margin-top: 40px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+section h3 {
+  font-size: 2.2em;
+  color: #9c4d97;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: 'Dancing Script', cursive;
+}
+
+section p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  color: #4a2c77;
+}
+
+/* Estilo para la imagen de la cabecera (foto de tu CV) */
+#incio img {
+  display: block;
+  margin: 20px auto;
+  max-width: 200px;  /* Tamaño ajustado de la foto */
+  height: auto;
+  border: none; /* Sin borde */
+}
+
+/* Bloques de estudios */
+.bloque {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.bloque h4 {
+  font-size: 1.6em;
+  color: #6a1b9a;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Portafolio */
+#portafolio {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#portafolio article {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(33.333% - 20px);
+  text-align: center;
+}
+
+#portafolio article h4 {
+  color: #6a1b9a;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  font-family: 'Poppins', sans-serif;
+}
+
+#portafolio article img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* Contacto */
+#contacto iframe {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: #6a1b9a;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1.1em;
+}
+
+form input[type="submit"] {
+  background-color: #9b59b6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+form input[type="submit"]:hover {
+  background-color: #6a1b9a;
+}
+
+/* Footer */
+footer {
+  background-color: #9b59b6;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 15px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.1em;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Detalles florales sutiles de fondo */
+body::before {
+  content: "🌸";
+  font-size: 4em;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 0.1;
+}
+
+body::after {
+  content: "🌸";
+  font-size: 4em;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  opacity: 0.1;
+}
+
