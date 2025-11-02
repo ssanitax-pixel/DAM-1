@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <title>Formulario de Evento Social</title>
+  </head>
+  <body>
+      <h1>Formulario para Evento Social</h1>
+      <form action="procesar_formulario.php" method="POST">
+          <!-- Nombre -->
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <br>
+
+          <!-- Correo electrónico -->
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" required>
+          <br>
+
+          <!-- Número de teléfono -->
+          <label for="telefono">Número de teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" required>
+          <br>
+
+          <!-- Botón de envío -->
+          <button type="submit">Enviar</button>
+      </form>
+  </body>
+</html>
+
