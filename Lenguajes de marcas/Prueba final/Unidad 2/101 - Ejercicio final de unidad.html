@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Curriculum</title>
+    <meta charset="utf-8">
+    <style>
+      html{
+        background:grey;
+        font-family:arial;
+        font-size:11px;
+      }
+      body{
+        width:600px;
+        background:white;
+        margin:auto;
+        display:flex;
+        z-index: 0;}
+      .franja-azul {
+        background-color:CornflowerBlue;  /* Color rosa */
+        height: 180px;             /* Altura de la franja */
+        width: 600px;              /* Ancho completo */
+        position: absolute;       /* Hace que se superponga sobre el contenido */
+        top: 0;                   /* Colocamos la franja en la parte superior */
+        margin: 0 auto;
+      }
+      h1{
+        font-size:40px;
+        font-family:helvetica;
+        position:relative;
+        z-index: 300;
+        color:white;
+      }
+      h2{
+        font-size:20px;
+        font-family:helvetica;
+        color:CornflowerBlue;
+      }
+      #izquierda img{
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 50%;
+        background-color: CornflowerBlue; /* Color de fondo de la imagen */
+        padding: 0px; /* Espacio entre la imagen y el borde */
+        border: 10px solid white; /* Borde blanco alrededor de la imagen */
+        margin: 0 auto; /* Centrado de la imagen */
+        display: block; /* Para que la imagen esté centrada dentro del contenedor */
+        box-sizing: border-box; /* Incluye el padding y el borde dentro del tamaño total de la imagen */
+        position:relative;
+      }
+      #izquierda{
+        flex:1;
+        background:AliceBlue;
+        padding:20px;
+        color:black;
+        margin-top:20px;
+      }
+      #derecha{
+        flex:6;
+        padding:20px;
+        background-color:white;
+      }
+      #derecha article{
+        display:flex;
+        align-items:center;
+        gap:20px;
+      }
+      #derecha article img{max-width:50px;}
+      #derecha article *{
+        padding:1px;
+        margin:1px;
+      }
+      #contenido-texto {
+        padding-top: 50px;
+        margin-left: 5px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="franja-azul"></div>
+    <section id="izquierda">
+      <img src="imagen-personal.jpg">
+      <div id="contenido-texto">
+      <article>
+        <h3>Contacto</h3>
+        <ul>
+          <li>Valencia</li>
+          <li>+34 722 28 96 95</li>
+          <li>ssanitax@gmail.com</li>
+        </ul>
+      </article>
+      <article>
+        <h3>Datos de interés</h3>
+        <ul>
+          <p>Dispongo de carné de conducir y vehículo propio. Además, cuento con titulación de monitora de campamentos, lo que me ha permitido adquirir experiencia en el trato con niños y asumir responsabilidades de organización y cuidado.</p>
+        </ul>
+      </article>
+      </div>
+    </section>
+    <section id="derecha">
+      <h1>Ana Sánchez Suárez</h1>
+      <h2>Estudiante en Desarrollo de Aplicaciones Multiplataforma</h2>
+      <h3>Sobre mi</h3>
+      <p>Cuento con habilidades para la resolución de problemas y mantengo siempre una actitud positiva. Tengo competencias digitales e interés constante por seguir aprendiendo. Me considero creativa y destaco por mi capacidad de trabajo en equipo.</p>
+      <div id="experiencia">
+        <h3>Experiencia profesional</h3>
+        <article>
+          <img src="kangar.png">
+          <div class="texto">
+            <h4>Especialista en posicionamiento SEO</h4>
+            <h5>De junio a septiembre de 2023 - Kangar</h5>
+            <p>Gestión de blogs en redes sociales, uso de SEMrush para SEO, investigación de palabras clave y manejo de WordPress.</p>
+          </div>
+        </article>
+        <article>
+          <img src="citysem.png">
+          <div class="texto">
+            <h4>Técnico Marketing y Publicidad</h4>
+            <h5>De mayo a junio de 2023 - CitySem</h5>
+            <p>Desarrollé tareas de copywriting digital y arquitectura web, además de la gestión de blogs en redes sociales y el diseño de logotipos. También cuento con experiencia en el uso de SEMrush, investigación de palabras clave y posicionamiento SEO.</p>
+          </div>
+        </article>
+      </div>
+      <div id="formacion">
+        <h3>Formación académica</h3>
+        <article>
+          <img src="ceac.jpeg">
+          <div class="texto">
+            <h4>Desarrollo de aplicaciones multiplataforma</h4>
+            <h5>Ciclo formativo de grado superior - CEAC</h5>
+            <p>Valencia - Desde septiembre de 2025 hasta la actualidad</p>
+          </div>
+        </article>
+        <article>
+          <img src="angel-ganivet.jpeg">
+          <div class="texto">
+            <h4>Marketing y publicidad</h4>
+            <h5>Ciclo formativo de grado superior - IES Ángel Ganivet</h5>
+            <p>Granada - Desde septiembre de 2021 hasta junio de 2023</p>
+          </div>
+        </article>
+      </div>
+    </section> 
+  </body> 
+</html>
