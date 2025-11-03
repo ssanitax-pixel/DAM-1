@@ -137,4 +137,28 @@ INSERT INTO entradas VALUES(
 SELECT * FROM entradas;
 ```
 
+Petición cruzada.
+```
+SELECT
+entradas.titulo,entradas.fecha,entradas.imagen,entradas.contenido
+autores.nombre,autores.apellidos
+FROM entradas
+LEFT JOIN autores
+ON entradas.id_autor = autores.Identificador;
+```
 
+Por último creamos una vista.
+```
+CREATE VIEW vista_entradas AS
+SELECT
+entradas.titulo,entradas.fecha,entradas.imagen,entradas.contenido
+autores.nombre,autores.apellidos
+FROM entradas
+LEFT JOIN autores
+ON entradas.id_autor = autores.Identificador;
+```
+
+Ahora se comportará como una tabla.
+```
+SELECT * FROM vista_entradas;
+```
