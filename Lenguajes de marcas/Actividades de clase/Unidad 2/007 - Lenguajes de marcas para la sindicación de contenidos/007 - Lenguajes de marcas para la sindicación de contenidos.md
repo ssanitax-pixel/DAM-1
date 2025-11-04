@@ -1,0 +1,194 @@
+En esta práctica aprendemos a usar CSS para mejorar cómo se ve un documento HTML. Vemos cómo se organizan las secciones izquierda y derecha, y cómo podemos cambiar colores, tamaños y alineación de imágenes y textos. También aprendemos a usar márgenes, rellenos y otros estilos para que la página sea más clara y bonita.
+
+---
+
+En este ejercicio, vamos a practicar cómo usar CSS para controlar la apariencia visual de un documento HTML. Primero, abrimos uno de los archivos proporcionados (por ejemplo, `016-css-para-control-visual.html`) y nos familiarizamos con su estructura, identificando las secciones principales (#izquierda y #derecha) y cómo están organizadas.
+
+Después, vamos a modificar el archivo para añadir o ajustar contenido: agregaremos un nuevo artículo en la sección izquierda con un título y una lista de elementos, y en la sección derecha incluiremos información sobre nuestra formación académica, siguiendo el mismo estilo que las experiencias profesionales.
+
+A continuación, aplicaremos CSS para mejorar la presentación del documento: cambiaremos colores de fondo y de texto en la sección izquierda, ajustaremos el tamaño y la alineación de las imágenes dentro de los artículos, y añadiremos márgenes y rellenos para que el contenido sea más legible.
+
+Finalmente, guardaremos los cambios y abriremos el archivo en el navegador para ver cómo queda. Reflexionaremos sobre cómo los estilos CSS que aplicamos mejoran la presentación del contenido y pensaremos en cómo podemos usar estos mismos principios en otros proyectos.
+
+```
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Curriculum</title>
+    <meta charset="utf-8">
+    <style>
+      /* Estilos generales */
+      html {
+        background: grey;
+        font-family: arial;
+        font-size: 11px;
+      }
+      body {
+        width: 800px;
+        background: white;
+        margin: auto;
+        display: flex;
+      }
+
+      /* Sección izquierda */
+      #izquierda {
+        flex: 1.5;
+        background: DarkSeaGreen;
+        padding: 20px;
+        color: white;
+      }
+      #izquierda img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+      #izquierda article {
+        margin-top: 20px;
+      }
+      #izquierda article h3 {
+        margin-bottom: 5px;
+      }
+      #izquierda article ul li {
+        margin-left: 15px;
+      }
+
+      /* Sección derecha */
+      #derecha {
+        flex: 3.5;
+        padding: 20px;
+      }
+      #derecha article {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        margin-bottom: 15px;
+      }
+      #derecha article img {
+        max-width: 50px;
+        border-radius: 5px;
+      }
+      #derecha article * {
+        padding: 1px;
+        margin: 1px;
+      }
+      /* Cambios visuales adicionales */
+      #derecha h1 {
+        color: DarkGreen;
+        margin-bottom: 5px;
+      }
+      #derecha h2 {
+        color: DarkOliveGreen;
+        margin-bottom: 15px;
+      }
+      #derecha h3 {
+        color: DarkGreen;
+        margin-bottom: 10px;
+      }
+      #derecha .texto p {
+        font-size: 11px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Sección izquierda -->
+    <section id="izquierda">
+      <img src="imagen-personal.jpg" alt="Foto personal">
+      
+      <article>
+        <h3>Habilidades</h3>
+        <ul>
+          <li>Trabajo en equipo</li>
+          <li>Resolución de problemas</li>
+          <li>Creatividad</li>
+          <li>Competencias digitales</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Intereses</h3>
+        <ul>
+          <li>Programación</li>
+          <li>Diseño web</li>
+          <li>Inteligencia Artificial</li>
+          <li>Big Data</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>Idiomas</h3>
+        <ul>
+          <li>Español</li>
+          <li>Inglés</li>
+          <li>Francés</li>
+        </ul>
+      </article>
+
+      <!-- Nuevo artículo agregado según el enunciado -->
+      <article>
+        <h3>Proyectos</h3>
+        <ul>
+          <li>Web personal</li>
+          <li>Aplicación móvil</li>
+          <li>Portafolio de diseño</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Sección derecha -->
+    <section id="derecha">
+      <h1>Ana Sánchez Suárez</h1>
+      <h2>Estudiante en Desarrollo de Aplicaciones Multiplataforma</h2>
+
+      <h3>Sobre mi</h3>
+      <p>Cuento con habilidades para la resolución de problemas y mantengo siempre una actitud positiva. Tengo competencias digitales e interés constante por seguir aprendiendo. Me considero creativa y destaco por mi capacidad de trabajo en equipo.</p>
+
+      <div id="experiencia">
+        <h3>Experiencia profesional</h3>
+        <article>
+          <img src="kangar.png" alt="Kangar">
+          <div class="texto">
+            <h4>Especialista en posicionamiento SEO</h4>
+            <h5>Junio - Septiembre 2023 - Kangar</h5>
+            <p>Gestión de blogs en redes sociales, uso de SEMrush para SEO, investigación de palabras clave y manejo de WordPress.</p>
+          </div>
+        </article>
+
+        <article>
+          <img src="citysem.png" alt="CitySem">
+          <div class="texto">
+            <h4>Técnico Marketing y Publicidad</h4>
+            <h5>Mayo - Junio 2023 - CitySem</h5>
+            <p>Desarrollé tareas de copywriting digital y arquitectura web, además de la gestión de blogs en redes sociales y el diseño de logotipos. Experiencia en SEMrush e investigación de palabras clave.</p>
+          </div>
+        </article>
+      </div>
+
+      <div id="formacion">
+        <h3>Formación académica</h3>
+        <article>
+          <img src="ceac.jpeg" alt="CEAC">
+          <div class="texto">
+            <h4>Desarrollo de aplicaciones multiplataforma</h4>
+            <h5>Ciclo formativo de grado superior - CEAC</h5>
+            <p>Valencia - Desde septiembre de 2025 hasta la actualidad</p>
+          </div>
+        </article>
+
+        <article>
+          <img src="angel-ganivet.jpeg" alt="IES Ángel Ganivet">
+          <div class="texto">
+            <h4>Marketing y publicidad</h4>
+            <h5>Ciclo formativo de grado superior - IES Ángel Ganivet</h5>
+            <p>Granada - Desde septiembre de 2021 hasta junio de 2023</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </body>
+</html>
+
+```
+
+---
+
+Con esta práctica entendimos cómo el CSS nos ayuda a controlar la apariencia de una página web. Cambiamos colores, ajustamos imágenes y mejoramos la organización del contenido. Esto hace que el documento sea más fácil de leer y se vea mejor. Aprender estas cosas nos servirá para hacer páginas más bonitas y ordenadas en futuros proyectos.
