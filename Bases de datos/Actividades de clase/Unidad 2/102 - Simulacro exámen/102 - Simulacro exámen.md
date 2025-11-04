@@ -1,3 +1,7 @@
+Las bases de datos relacionales permiten organizar y gestionar la información de manera estructurada mediante tablas que se relacionan entre sí. En MySQL, este modelo facilita el almacenamiento eficiente de datos y su posterior consulta mediante el uso de claves primarias, foráneas y vistas, elementos fundamentales para garantizar la integridad y coherencia de la información.
+
+---
+
 Inicio sesión en MySQL.
 ```
 sudo mysql -u root -p
@@ -124,12 +128,11 @@ ON UPDATE CASCADE;
 
 Insertamos una entrada.
 ```
-INSERT INTO entradas VALUES(
-    NULL,
-    'Título de la primera entrada'.
-    '2025-11-03',
-    'imagen.jpg',
-    1,
+INSERT INTO entradas (titulo, fecha, imagen, id_autor, contenido) VALUES (
+    'Titulo de la primera entrada', 
+    '2025-11-03', 
+    'imagen.jpg', 
+    1, 
     'Este es el contenido de la primera entrada'
 );
 ```
@@ -162,3 +165,8 @@ Ahora se comportará como una tabla.
 ```
 SELECT * FROM vista_entradas;
 ```
+
+---
+
+En este ejercicio, he aprendido a crear una base de datos para un blog, definir las tablas con sus claves primarias y foráneas, realizar consultas cruzadas y generar vistas. Esta práctica me permitió comprender mejor cómo trabajar con bases de datos relacionales en MySQL.
+

@@ -1,9 +1,9 @@
 Empresa
 
 Cliente
--dni -varchar
--nombre -varchar
--apellidos -varchar
--email -varchar
+- dni - varchar
+- nombre - varchar
+- apellidos - varchar
+- email - varchar
 
 
