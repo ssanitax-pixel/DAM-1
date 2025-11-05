@@ -143,7 +143,7 @@ SELECT * FROM entradas;
 Petición cruzada.
 ```
 SELECT
-entradas.titulo,entradas.fecha,entradas.imagen,entradas.contenido
+entradas.titulo,entradas.fecha,entradas.imagen,entradas.contenido,
 autores.nombre,autores.apellidos
 FROM entradas
 LEFT JOIN autores

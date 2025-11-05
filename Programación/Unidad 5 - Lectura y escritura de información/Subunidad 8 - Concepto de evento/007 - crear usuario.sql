@@ -17,5 +17,6 @@ MAX_USER_CONNECTIONS 0;
 -- dale acceso a la base de datos empresadam
 GRANT ALL PRIVILEGES ON `empresadam`.* 
 TO 'empresadam'@'localhost';
+
 -- recarga la tabla de privilegios
 FLUSH PRIVILEGES;
