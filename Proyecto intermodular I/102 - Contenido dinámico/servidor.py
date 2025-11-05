@@ -19,6 +19,7 @@ def raiz():
     <style>
       body{background:steelblue;color:steelblue;font-family:sans-serif;}
       header,main,footer{background:white;padding:20px;margin:auto;width:600px;}
+      header,footer{text-align:center;}
       main{color:black;}
     </style>
   </head>
