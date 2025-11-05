@@ -10,48 +10,67 @@ conexion = mysql.connector.connect(
 cursor = conexion.cursor()
 while True:
   print("Escoge una opcion:")
-  print("1.-Insertar un cliente")
-  print("2.-Listar los clientes")
-  print("3.-Actualizar un cliente")
-  print("4.-Borrar un cliente")
-  opcion = int(input("Escoge tu opción"))
+  print("1.-Insertar una pieza")
+  print("2.-Listar piezas")
+  print("3.-Actualizar piezas")
+  print("4.-Borrar una pieza")
+  print("5.-Salir")
+  opcion = int(input("Escoge tu opción: "))
 
   if opcion == 1:
-    print("Insertamos un cliente")
-    nombre = input("Introduce el nombre del cliente: ")
-    apellidos = input("Introduce los apellidos del cliente: ")
-    telefono = input("Introduce el telefono del cliente: ")
-    email = input("Introduce el email del cliente: ")
-    localidad = input("Introduce la localidad del cliente: ")
+    print("Insertamos una pieza")
+    titulop = input("Introduce el título de la pieza: ")
+    descripcionp = input("Introduce la descripción de la pieza: ")
+    imagen = input("Introduce el nombre de la imagen de la pieza: ")
+    url = input("Introduce la url de la pieza: ")
+    id_categoria = input("Introduce el id de la categoría: ")
     cursor.execute('''
-      INSERT INTO clientes
+      INSERT INTO Pieza
       VALUES (
         NULL,
-        "'''+nombre+'''",
-        "'''+apellidos+'''",
-        "'''+telefono+'''",
-        "'''+email+'''",
-        "'''+localidad+'''"
+        "'''+titulop+'''",
+        "'''+descripcionp+'''",
+        "'''+imagen+'''",
+        "'''+url+'''",
+        '''+id_categoria+'''
       )
     ''')
     conexion.commit()
   elif opcion == 2:
-    print("Listamos los clientes")
-    cursor.execute("SELECT * FROM clientes")
+    print("Listamos las piezas")
+    cursor.execute("SELECT * FROM Pieza")
     resultados = cursor.fetchall()
     for fila in resultados:
       print(fila)
   elif opcion == 3:
-    print("Actualizamos un cliente")
-  elif opcion == 4:
-    print("Eliminamos un cliente")
-    id = input("Introduce el id del cliente que quieres eliminar: ")
+    print("Actualizamos una pieza")
+    Identificador = input("Introduce el Identificador a actualizar: ")
+    titulop = input("Introduce el nuevo título de la pieza: ")
+    descripcionp = input("Introduce la descripción de la pieza: ")
+    imagen = input("Introduce el nombre de la imagen de la pieza: ")
+    url = input("Introduce la url de la pieza: ")
+    id_categoria = input("Introduce el número de categoría: ")
     cursor.execute('''
-      DELETE FROM clientes
-      WHERE Identificador = '''+id+'''
+        UPDATE Pieza
+        SET
+            titulop = "'''+titulop+'''",
+            descripcionp = "'''+descripcionp+'''",
+            imagen = "'''+imagen+'''",
+            url = "'''+url+'''",
+            id_categoria = '''+id_categoria+'''
+        WHERE Identificador = '''+Identificador+'''
     ''')
     conexion.commit()
-  
+  elif opcion == 4:
+    print("Eliminamos un cliente")
+    Identificador = input("Introduce el Identificador de la pieza que quieres eliminar: ")
+    cursor.execute('''
+      DELETE FROM Pieza
+      WHERE Identificador = '''+Identificador+'''
+    ''')
+    conexion.commit()
+  elif opcion == 5:
+    break
   
 cursor.close() 
 

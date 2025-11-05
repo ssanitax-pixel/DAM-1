@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestión de Piezas de Arte</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .button {
+      background-color: #28a745;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+      margin: 10px 0;
+    }
+
+    .button:hover {
+      background-color: #218838;
+    }
+
+    .form-group {
+      margin-bottom: 10px;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+    }
+
+    input[type="text"], input[type="number"], input[type="url"] {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      font-size: 16px;
+    }
+
+    .piece-list {
+      margin-top: 20px;
+    }
+
+    .piece-list table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    .piece-list th, .piece-list td {
+      padding: 8px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    .piece-list th {
+      background-color: #f8f9fa;
+    }
+
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Gestión de Piezas de Arte</h1>
+</header>
+
+<main>
+  <h2>Selecciona una opción:</h2>
+  
+  <div id="menu">
+    <button class="button" onclick="showForm('insert')">1. Insertar una pieza</button>
+    <button class="button" onclick="showForm('list')">2. Listar piezas</button>
+    <button class="button" onclick="showForm('update')">3. Actualizar piezas</button>
+    <button class="button" onclick="showForm('delete')">4. Borrar una pieza</button>
+    <button class="button" onclick="exitApp()">5. Salir</button>
+  </div>
+
+  <!-- Formulario Insertar Pieza -->
+  <div id="insertForm" style="display:none;">
+    <h2>Insertar una nueva pieza</h2>
+    <div class="form-group">
+      <label for="titulop">Título:</label>
+      <input type="text" id="titulop" placeholder="Introduce el título de la pieza">
+    </div>
+    <div class="form-group">
+      <label for="descripcionp">Descripción:</label>
+      <input type="text" id="descripcionp" placeholder="Introduce la descripción de la pieza">
+    </div>
+    <div class="form-group">
+      <label for="imagen">Nombre de la imagen:</label>
+      <input type="text" id="imagen" placeholder="Introduce el nombre de la imagen">
+    </div>
+    <div class="form-group">
+      <label for="url">URL:</label>
+      <input type="url" id="url" placeholder="Introduce la URL de la pieza">
+    </div>
+    <div class="form-group">
+      <label for="id_categoria">ID de la categoría:</label>
+      <input type="number" id="id_categoria" placeholder="Introduce el ID de la categoría">
+    </div>
+    <button class="button" onclick="insertPiece()">Insertar Pieza</button>
+    <button class="button" onclick="cancelAction()">Cancelar</button>
+  </div>
+
+  <!-- Formulario Actualizar Pieza -->
+  <div id="updateForm" style="display:none;">
+    <h2>Actualizar una pieza</h2>
+    <div class="form-group">
+      <label for="updateIdentificador">ID de la pieza a actualizar:</label>
+      <input type="number" id="updateIdentificador" placeholder="Introduce el ID de la pieza">
+    </div>
+    <div class="form-group">
+      <label for="updateTitulop">Nuevo Título:</label>
+      <input type="text" id="updateTitulop" placeholder="Introduce el nuevo título">
+    </div>
+    <div class="form-group">
+      <label for="updateDescripcionp">Nueva Descripción:</label>
+      <input type="text" id="updateDescripcionp" placeholder="Introduce la nueva descripción">
+    </div>
+    <button class="button" onclick="updatePiece()">Actualizar Pieza</button>
+    <button class="button" onclick="cancelAction()">Cancelar</button>
+  </div>
+
+  <!-- Formulario Eliminar Pieza -->
+  <div id="deleteForm" style="display:none;">
+    <h2>Eliminar una pieza</h2>
+    <div class="form-group">
+      <label for="deleteIdentificador">ID de la pieza a eliminar:</label>
+      <input type="number" id="deleteIdentificador" placeholder="Introduce el ID de la pieza">
+    </div>
+    <button class="button" onclick="deletePiece()">Eliminar Pieza</button>
+    <button class="button" onclick="cancelAction()">Cancelar</button>
+  </div>
+
+  <!-- Listar las Piezas -->
+  <div id="pieceList" style="display:none;" class="piece-list">
+    <h2>Lista de Piezas</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Título</th>
+          <th>Descripción</th>
+          <th>Imagen</th>
+          <th>URL</th>
+        </tr>
+      </thead>
+      <tbody id="piecesTable">
+        <!-- Las piezas se agregarán aquí dinámicamente -->
+      </tbody>
+    </table>
+    <button class="button" onclick="cancelAction()">Cancelar</button>
+  </div>
+
+</main>
+
+<div class="footer">
+  <p>Gestión de Piezas - Portafolio de Arte</p>
+</div>
+
+<script>
+  // Función para mostrar el formulario seleccionado
+  function showForm(action) {
+    // Ocultar todas las secciones
+    document.getElementById('insertForm').style.display = 'none';
+    document.getElementById('updateForm').style.display = 'none';
+    document.getElementById('deleteForm').style.display = 'none';
+    document.getElementById('pieceList').style.display = 'none';
+    
+    // Mostrar el formulario correspondiente
+    if (action === 'insert') {
+      document.getElementById('insertForm').style.display = 'block';
+    } else if (action === 'update') {
+      document.getElementById('updateForm').style.display = 'block';
+    } else if (action === 'delete') {
+      document.getElementById('deleteForm').style.display = 'block';
+    } else if (action === 'list') {
+      document.getElementById('pieceList').style.display = 'block';
+      listPieces(); // Llamada a la función para listar las piezas
+    }
+  }
+
+  // Función para cancelar y volver al menú principal
+  function cancelAction() {
+    showForm(''); // Volver al menú principal
+  }
+
+  // Simulaciones de operaciones en la base de datos (solo de ejemplo)
+  function insertPiece() {
+    alert('Pieza insertada correctamente');
+    cancelAction();
+  }
+
+  function updatePiece() {
+    alert('Pieza actualizada correctamente');
+    cancelAction();
+  }
+
+  function deletePiece() {
+    alert('Pieza eliminada correctamente');
+    cancelAction();
+  }
+
+  // Simulación de listado de piezas (en la vida real, lo harías con un AJAX a tu servidor para obtener los datos de la base de datos)
+  function listPieces() {
+    let pieces = [
+      {id: 1, title: 'La Mañana sobre el Río', description: 'Óleo sobre lienzo', image: 'la_manana_sobre_el_rio.jpg', url: 'https://example.com/la-manana-sobre-el-rio'},
+      {id: 2, title: 'Retrato de Mujer', description: 'Óleo sobre lienzo', image: 'retrato_de_mujer.jpg', url: 'https://example.com/retrato-de-mujer'}
+    ];
+
+    let table = document.getElementById('piecesTable');
+    table.innerHTML = '';
+
+    pieces.forEach(piece => {
+      let row = `<tr>
+                  <td>${piece.id}</td>
+                  <td>${piece.title}</td>
+                  <td>${piece.description}</td>
+                  <td><img src="${piece.image}" width="50" alt="Imagen de la pieza"></td>
+                  <td><a href="${piece.url}" target="_blank">${piece.url}</a></td>
+                </tr>`;
+      table.innerHTML += row;
+    });
+  }
+
+  // Función para cerrar la aplicación (solo visual)
+  function exitApp() {
+    alert('¡Hasta luego!');
+  }
+</script>
+
+</body>
+</html>
+
