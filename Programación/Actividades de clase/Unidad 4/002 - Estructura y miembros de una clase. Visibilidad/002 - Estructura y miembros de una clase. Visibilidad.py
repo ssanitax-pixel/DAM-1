@@ -38,6 +38,6 @@ while True:
     elif opcion == 4:
         print("Vamos a borrar un cliente: ")
         nombreborrar = input("Introduce el nombre del usuario a borrar: ")
-        nombreborrar = clientes.remove(clientes)
+        nombreborrar = clientes.remove(cliente)
         
         
