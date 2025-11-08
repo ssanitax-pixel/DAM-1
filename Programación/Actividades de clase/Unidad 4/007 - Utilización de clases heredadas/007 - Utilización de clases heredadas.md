@@ -1,3 +1,9 @@
+En este ejercicio practicaremos el concepto de **herencia** dentro de la **programación orientada a objetos**.
+La herencia nos permite crear clases que comparten atributos y métodos de una clase base, favoreciendo la reutilización y organización del código.
+Para aplicarlo, crearemos una clase madre `Animal` y dos subclases, `Gato` y `Perro`, que heredan sus características. Además, añadiremos una clase `Comida` para representar una situación social donde los animales comparten un almuerzo con sus amigos.
+
+---
+
 Creamos la clase Animal como clase madre para representar las características comunes de todos los animales.
 
 ```
@@ -38,6 +44,12 @@ Añadimos un método en la clase Animal que imprime un mensaje indicando que el 
 ```
     def comer_con_amigos(self):
         print(self.nombre,"está comiendo",almuerzo1.tipo_comida,"con",almuerzo1.amigos)
+```
+
+Luego lo llamaremos así:
+
+```
+gato1.comer_con_amigos()
 ```
 
 ---
@@ -84,3 +96,9 @@ print("El perro tiene", perro1.edad, "años.")
 gato1.comer_con_amigos()
 perro1.comer_con_amigos()
 ```
+
+---
+
+En esta actividad hemos aplicado la herencia para modelar distintos tipos de animales de forma estructurada.
+Hemos comprobado cómo las subclases Gato y Perro pueden utilizar los atributos y métodos de la clase Animal, y cómo interactúan con la clase Comida.
+El ejercicio demuestra la utilidad de la herencia para organizar información, evitar duplicaciones y simular relaciones del mundo real dentro del código.
