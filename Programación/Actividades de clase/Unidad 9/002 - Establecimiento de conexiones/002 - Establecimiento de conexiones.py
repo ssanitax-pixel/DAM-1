@@ -27,3 +27,6 @@ for fila in filas:
 arbol.pack(padx=20, pady=20)
 
 ventana.mainloop()
+
+cursor.close()
+conexion.close()
