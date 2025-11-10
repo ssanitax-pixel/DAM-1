@@ -316,7 +316,7 @@ MAX_USER_CONNECTIONS 0;
 Le damos acceso a la base de datos de `portafolioexamen`.
 
 ```
-GRANT ALL PRIVILEGES ON `examenportafolio`.* 
+GRANT ALL PRIVILEGES ON `portafolioexamen`.* 
 TO 'usuario2'@'localhost';
 ```
 
