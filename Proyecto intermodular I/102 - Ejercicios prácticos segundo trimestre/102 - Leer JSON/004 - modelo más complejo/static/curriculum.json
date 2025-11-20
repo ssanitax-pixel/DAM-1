@@ -1,0 +1,13 @@
+{
+  "datos_personales":{
+    "nombre":"Ana",
+    "apellidos":"Sánchez Suárez",
+    "correo":"ssanitax@gmail.com",
+    "telefonos":["653563","5432234"]
+  },
+  "experiencias_laborales":[
+    "Experta en posicionamiento SEO",
+    "Técnica de Marketing y Publicidad"
+  ]
+  
+}
