@@ -16,7 +16,7 @@ columnas = [] # Creo una lista vacía
 filas = cursor.fetchall() # Lo guardo en la lista
 for fila in filas: # Recorro el resultado
     columnas.append(fila[0]) # Lo añado a la lista de tablas
-    #----------------- ESTO ENVÍA TODA LA TABLA  ----------
+#----------------- ESTO ENVÍA TODA LA TABLA  ----------
 cursor.execute("SELECT * FROM productos;") # Muestra las tablas de la base de datos
 contenido_tabla = cursor.fetchall() # Lo guardo en la lista
 ####################### MySQL ###############################
