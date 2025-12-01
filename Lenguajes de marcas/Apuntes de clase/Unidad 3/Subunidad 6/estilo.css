@@ -1,0 +1,11 @@
+header,main,footer{
+	width:1200px;
+  margin:auto;
+  padding:20px;
+  font-family:sans-serif;
+}
+main{
+	display:grid;
+  grid-template-columns:repeat(3,100fr);gap:20px;
+}
+img{width:100%;}
