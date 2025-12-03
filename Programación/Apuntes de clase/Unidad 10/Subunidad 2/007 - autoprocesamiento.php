@@ -1,0 +1,9 @@
+<?php
+	echo $_POST['nombre'];
+?>
+
+<form action="006 - post.php" method="POST">
+  <p>Introduce tu nombre</p>
+  <input type="text" name="nombre">
+  <input type="submit">
+</form>
