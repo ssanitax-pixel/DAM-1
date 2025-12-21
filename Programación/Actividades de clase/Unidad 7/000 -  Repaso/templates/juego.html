@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      main {
+        width: 1000px;
+        height: 700px;
+        border: 2px solid black;
+        position: relative;
+        overflow: hidden;
+        margin: auto;
+      }
+      .npc {
+        position: absolute;
+        background-image: url('/static/shrek.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+  </head>
+  <body>    
+    <main></main>
+    <script>
+      let escenario = document.querySelector("main");
+      let temporizador;
+
+      function bucle() {
+        fetch("/api")
+          .then(respuesta => respuesta.json())
+          .then(datos => {
+            escenario.innerHTML = ""; 
+            
+            datos.forEach(function(npc) {
+              let personaje = document.createElement("div");
+              personaje.classList.add("npc");
+              personaje.style.left = npc.posx + "px";
+              personaje.style.top = npc.posy + "px";
+              personaje.style.width = npc.radio + "px";
+              personaje.style.height = npc.radio + "px";
+              escenario.appendChild(personaje);
+            });
+          })
+          .catch(error => console.error("Error en la API:", error));
+
+        clearTimeout(temporizador);
+        temporizador = setTimeout(bucle, 100);
+      }
+
+      bucle();
+    </script>
+  </body>
+</html>
