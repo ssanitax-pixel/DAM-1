@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      body { margin: 0; background: #f0f0f0; }
+      main { 
+        width: 1000px; 
+        height: 700px; 
+        background: white; 
+        position: relative; 
+        margin: 20px auto; 
+        border: 2px solid #333;
+        overflow: hidden; /* Para que los Shreks no se salgan del recuadro */
+      }
+      .npc {
+        position: absolute;
+        background-image: url('/static/shrek.jpg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%; /* Opcional: hace que los Shreks sean redondos */
+      }
+    </style>
+  </head>
+  <body>    
+    <main></main>
+    <script>
+      let escenario = document.querySelector("main");
+      let temporizador;
+
+      function bucle() {
+        // 1. Pedimos los datos a la ruta /api
+        fetch("http://127.0.0.1:5000/api")
+          .then(function(respuesta) {
+            // PASO CRÍTICO: Convertimos la respuesta a JSON
+            return respuesta.json(); 
+          })
+          .then(function(datos) {
+            // Ahora 'datos' sí es la lista que Python nos envía
+            escenario.innerHTML = ""; // Limpiamos el escenario
+            
+            datos.forEach(function(npc) {
+              let personaje = document.createElement("div");
+              personaje.classList.add("npc");
+              
+              // Aplicamos las propiedades que vienen de vuestra clase Npc en Python
+              personaje.style.left = npc.posx + "px";
+              personaje.style.top = npc.posy + "px";
+              personaje.style.width = npc.radio + "px";
+              personaje.style.height = npc.radio + "px";
+              
+              escenario.appendChild(personaje);
+            });
+          })
+          .catch(function(error) {
+            console.error("Error al conectar con la API:", error);
+          });
+
+        // Gestionamos el temporizador para que se repita
+        clearTimeout(temporizador);
+        temporizador = setTimeout(bucle, 100);
+      }
+
+      // Arrancamos el bucle por primera vez
+      bucle();
+    </script>
+  </body>
+</html>
