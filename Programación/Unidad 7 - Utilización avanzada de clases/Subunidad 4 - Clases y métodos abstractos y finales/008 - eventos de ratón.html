@@ -1,0 +1,28 @@
+<!doctype hmtl>
+<html>
+  <head>
+  </head>
+  <body>
+    <script>
+      document.onkeydown = function(tecla){
+        switch(tecla.key){
+          case "w":
+            console.log("Movemos el personaje arriba");
+            break;
+          case "s":
+            console.log("Movemos el personaje abajo");
+            break;
+          case "a":
+            console.log("Movemos el personaje haca la izquierda");
+            break;
+          case "d":
+            console.log("Movemos el personaje hacia la derecha");
+            break;
+        }
+      }
+      document.onmousedown = function(){
+        console.log("Disparamos");
+      }
+    </script>
+  </body>
+</html>
