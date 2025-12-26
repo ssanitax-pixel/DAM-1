@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <title>Práctica Selección y Acceso</title>
+    <meta charset="utf-8">
+    <style>
+        #rojo{color:red;} #verde{color:green;} #azul{color:blue;}
+        main{ border-top: 1px solid #ccc; margin-top: 20px; padding: 10px; }
+    </style>
+</head>
+<body>
+    <p>Lectura de párrafo inicial.</p>
+    
+    <div id="rojo"></div>
+    <div id="verde"></div>
+    <div id="azul"></div>
+
+    <div id="dinamico"></div>
+
+    <main></main>
+
+    <script>
+        // 1. Lectura del párrafo
+        const parrafo = document.querySelector("p");
+        console.log("Contenido leído: " + parrafo.textContent);
+
+        // 2. Escritura de texto en IDs
+        document.querySelector("#rojo").textContent = "texto rojo";
+        document.querySelector("#verde").textContent = "texto verde";
+        document.querySelector("#azul").textContent = "texto azul";
+
+        // 3. Inserción de HTML dinámico
+        document.querySelector("#dinamico").innerHTML = "<h1>Hola</h1>";
+
+        // 4. Microblogging con array y bucle
+        const articulos = ["Primer artículo", "Segundo artículo", "Tercer artículo"];
+        const contenedor = document.querySelector("main");
+        
+        for(let i = 0; i < articulos.length; i++){
+            contenedor.innerHTML += "<h3>" + articulos[i] + "</h3>";
+        }
+    </script>
+</body>
+</html>
