@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Clientes - Restaurante</title>
+    <style>
+        body { font-family: sans-serif; background: #f4f4f4; padding: 20px; }
+        .cliente-card { background: white; padding: 15px; margin-bottom: 10px; border-radius: 8px; border: 1px solid #ddd; }
+        form { background: white; padding: 20px; border-radius: 8px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Lista de Clientes</h1>
+    <section id="lista-clientes">
+        {% for cliente in clientes %}
+            <div class="cliente-card">
+                <strong>{{ cliente.nombre }} {{ cliente.apellidos }}</strong>
+                <p>Email: {{ cliente.correo }} | Tel: {{ cliente.telefono }}</p>
+            </div>
+        {% endfor %}
+    </section>
+
+    <h2>Nuevo Registro</h2>
+    <form action="/clientes" method="POST">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="text" name="apellidos" placeholder="Apellidos" required>
+        <input type="email" name="correo" placeholder="Email" required>
+        <button type="submit">Enviar información</button>
+    </form>
+</body>
+</html>

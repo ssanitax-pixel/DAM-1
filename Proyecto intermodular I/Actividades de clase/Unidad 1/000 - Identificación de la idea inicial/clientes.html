@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurante - Clientes</title>
+    <style>
+        body { font-family: sans-serif; background: #eee; padding: 20px; }
+        .ficha { background: white; padding: 10px; margin-bottom: 5px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>Nuestros Clientes</h1>
+    {% for c in clientes %}
+        <div class="ficha">{{ c.nombre }} {{ c.apellidos }} ({{ c.correo }})</div>
+    {% endfor %}
+    <hr>
+    <form action="/clientes" method="POST">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="text" name="apellidos" placeholder="Apellidos" required>
+        <input type="email" name="correo" placeholder="Email" required>
+        <button type="submit">Registrar</button>
+    </form>
+    <br>
+    <a href="/admin/clientes">Ir al Panel de Control</a>
+</body>
+</html>

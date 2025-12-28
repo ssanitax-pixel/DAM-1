@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin - Clientes</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid black; padding: 8px; text-align: left; }
+        th { background: #333; color: white; }
+        button { background: red; color: white; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Panel de Administración</h1>
+    <table>
+        <tr>
+            <th>ID</th><th>Nombre</th><th>Acciones</th>
+        </tr>
+        {% for c in clientes %}
+        <tr>
+            <td>{{ c.id }}</td>
+            <td>{{ c.nombre }} {{ c.apellidos }}</td>
+            <td>
+                <form action="/admin/clientes" method="POST">
+                    <input type="hidden" name="id" value="{{ c.id }}">
+                    <button type="submit">Eliminar Cliente</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    <br>
+    <a href="/clientes">Volver a la web pública</a>
+</body>
+</html>
