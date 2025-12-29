@@ -1,0 +1,11 @@
+{
+  "nombre": "Ana",
+  "apellidos": "Sánchez Suárez",
+  "correo": "ssanitax@gmail.com",
+  "perfil": "Desarrolladora Full Stack Junior con enfoque en Python y SQL.",
+  "habilidades": ["Python", "Flask", "MySQL", "HTML5", "CSS Grid"],
+  "experiencia": [
+    {"puesto": "Prácticas de Desarrollo", "empresa": "Tech Solutions", "año": "2024"},
+    {"puesto": "Copywriting Digital", "empresa": "CitySem", "año": "2023"}
+  ]
+}

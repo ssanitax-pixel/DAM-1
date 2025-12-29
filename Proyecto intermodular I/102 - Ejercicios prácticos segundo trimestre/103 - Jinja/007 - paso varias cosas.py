@@ -2,11 +2,8 @@ from flask import Flask, render_template
 import mysql.connector  # Importo MySQL
 ####################### MySQL ###############################
 conexion = mysql.connector.connect(
-    host="localhost",
-    user="usuario2",
-    password="Portafolio123#",
-    database="clientes"
-    ) # datos de conexión a la base de datos
+    host="localhost",user="usuario2",password="Portafolio123#",database="clientes"
+) # datos de conexión a la base de datos
 cursor = conexion.cursor() # Creo un cursor MySQL
 #----------------- ESTO ENVÍA LAS TABLAS ----------
 cursor.execute("SHOW TABLES;") # Muestra las tablas de la base de datos
@@ -30,7 +27,8 @@ def inicio():
     return render_template(
         "backoffice.html",
         mis_tablas = tablas,
-        mis_columnas = columnas) # Envío las tablas a HTML
+        mis_columnas = columnas
+    ) # Envío las tablas a HTML
     
 if __name__ == "__main__":
     app.run(debug=True)

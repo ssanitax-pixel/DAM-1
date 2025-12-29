@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Curriculum Vitae - {{ info.nombre }}</title>
+    <meta charset="utf-8">
+    <style>
+      html { background: #f0f2f5; font-family: 'Segoe UI', sans-serif; }
+      body { 
+        background: white; 
+        margin: 40px auto; 
+        display: flex; 
+        width: 850px; 
+        min-height: 600px; 
+        box-shadow: 0 0 20px rgba(0,0,0,0.1); 
+      }
+      #izquierda { flex: 1; background: #1a2a6c; color: white; padding: 30px; }
+      #derecha { flex: 2.5; background: white; padding: 40px; color: #333; }
+      
+      h1 { margin: 0; color: #1a2a6c; text-transform: uppercase; }
+      h3 { border-bottom: 2px solid #1a2a6c; padding-bottom: 5px; margin-top: 30px; }
+      ul { padding-left: 20px; }
+      .puesto { font-weight: bold; margin-bottom: 0; }
+      .empresa { color: #666; font-style: italic; margin-top: 0; }
+    </style>
+  </head>
+  <body>
+    <div id="izquierda">
+      <h3>Contacto</h3>
+      <p>📧 {{ info.correo }}</p>
+      
+      <h3>Habilidades</h3>
+      <ul>
+        {% for habilidad in info.habilidades %}
+          <li>{{ habilidad }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div id="derecha">
+      <h1>{{ info.nombre }} {{ info.apellidos }}</h1>
+      <p><strong>Perfil:</strong> {{ info.perfil }}</p>
+
+      <h3>Experiencia Laboral</h3>
+      {% for exp in info.experiencia %}
+        <div class="bloque-exp">
+          <p class="puesto">{{ exp.puesto }}</p>
+          <p class="empresa">{{ exp.empresa }} | {{ exp.año }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>

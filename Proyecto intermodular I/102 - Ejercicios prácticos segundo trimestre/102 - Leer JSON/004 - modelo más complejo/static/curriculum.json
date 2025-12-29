@@ -3,11 +3,21 @@
     "nombre":"Ana",
     "apellidos":"Sánchez Suárez",
     "correo":"ssanitax@gmail.com",
-    "telefonos":["653563","5432234"]
+    "telefonos":["653567563","543322234"]
   },
   "experiencias_laborales":[
-    "Experta en posicionamiento SEO",
-    "Técnica de Marketing y Publicidad"
+    {
+      "titulo":"Maketing Digital",
+      "empresa":"CitySEM",
+      "timespan":"2022-2023",
+      "descripcion":"Prácticas"
+    },
+    {
+      "titulo":"Especialista en posicionamiento SEO",
+      "empresa":"Kangar",
+      "timespan":"2025-presente",
+      "descripcion":"Especialistan en posicinamiento SEO, copywriter y gestora de redes sociales"
+    }
   ]
   
 }
