@@ -1,0 +1,53 @@
+{
+  "formas": [
+    {
+      "id": "forma-1",
+      "tipo": "entity",
+      "left": "400px",
+      "top": "50px",
+      "entityName": "Persona",
+      "properties": [
+        {"id": "p1", "name": "id"},
+        {"id": "p2", "name": "nombre"},
+        {"id": "p3", "name": "apellidos"},
+        {"id": "p4", "name": "email"}
+      ]
+    },
+    {
+      "id": "forma-2",
+      "tipo": "entity",
+      "left": "250px",
+      "top": "250px",
+      "entityName": "Profesor",
+      "properties": [
+        {"id": "p5", "name": "id"},
+        {"id": "p6", "name": "asignatura"}
+      ]
+    },
+    {
+      "id": "forma-3",
+      "tipo": "entity",
+      "left": "550px",
+      "top": "250px",
+      "entityName": "Alumno",
+      "properties": [
+        {"id": "p7", "name": "id"},
+        {"id": "p8", "name": "nota"}
+      ]
+    }
+  ],
+  "flechas": [
+    {
+      "desde": {"shapeId": "forma-1"},
+      "hasta": {"shapeId": "forma-2"},
+      "tipo": "simple",
+      "estilo": "straight"
+    },
+    {
+      "desde": {"shapeId": "forma-1"},
+      "hasta": {"shapeId": "forma-3"},
+      "tipo": "simple",
+      "estilo": "straight"
+    }
+  ]
+}
