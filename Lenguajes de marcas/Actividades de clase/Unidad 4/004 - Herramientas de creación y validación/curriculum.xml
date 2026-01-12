@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculum xmlns="https://ejemplo.com/curriculum" version="1.0">
+    <datosPersonales>
+        <nombre>Ana</nombre>
+        <apellidos>Sánchez Suárez</apellidos>
+        <nacionalidad>Española</nacionalidad>
+        <email>ssanitax@gmail.com</email>
+        <telefono>+34 722 28 96 95</telefono>
+        <direccion>
+            <ciudad>Valencia</ciudad>
+            <pais>España</pais>
+        </direccion>
+    </datosPersonales>
+
+    <perfilProfesional>
+        ESTUDIANTE EN DESARROLLO DE APLICACIONES MULTIPLATAFORMA. 
+        Cuento con habilidades para la resolución de problemas y actitud positiva.
+    </perfilProfesional>
+
+    <experienciaProfesional>
+        <puesto>
+            <titulo>ESPECIALISTA EN POSICIONAMIENTO SEO</titulo>
+            <empresa>Kangar</empresa>
+            <fechaInicio>Junio 2023</fechaInicio>
+            <fechaFin>Septiembre 2023</fechaFin>
+            <descripcion>Gestión de blogs, SEMrush, SEO y WordPress.</descripcion>
+        </puesto>
+        <puesto>
+            <titulo>TÉCNICO MARKETING Y PUBLICIDAD</titulo>
+            <empresa>CitySem</empresa>
+            <fechaInicio>Mayo 2023</fechaInicio>
+            <fechaFin>Junio 2023</fechaFin>
+            <descripcion>Copywriting digital, arquitectura web y diseño de logotipos.</descripcion>
+        </puesto>
+    </experienciaProfesional>
+
+    <formacionAcademica>
+        <estudio>
+            <titulo>Marketing y publicidad</titulo>
+            <centro>IES Ángel Ganivet</centro>
+            <localizacion>Granada</localizacion>
+            <fechaInicio>Septiembre 2021</fechaInicio>
+            <fechaFin>Junio 2023</fechaFin>
+        </estudio>
+        <estudio>
+            <titulo>Desarrollo de aplicaciones multiplataforma</titulo>
+            <centro>CEAC</centro>
+            <localizacion>Valencia</localizacion>
+            <fechaInicio>Septiembre 2025</fechaInicio>
+            <fechaFin>Actualidad</fechaFin>
+        </estudio>
+    </formacionAcademica>
+
+    <otrosDatos>
+        <dato>Dispongo de carné de conducir y vehículo propio.</dato>
+        <dato>Titulación de monitora de campamentos.</dato>
+    </otrosDatos>
+</curriculum>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+           targetNamespace="https://ejemplo.com/curriculum"
+           xmlns="https://ejemplo.com/curriculum"
+           elementFormDefault="qualified">
+
+    <xs:element name="curriculum">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="datosPersonales">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="apellidos" type="xs:string"/>
+                            <xs:element name="nacionalidad" type="xs:string"/>
+                            <xs:element name="email" type="xs:string"/>
+                            <xs:element name="telefono" type="xs:string"/>
+                            <xs:element name="direccion">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ciudad" type="xs:string"/>
+                                        <xs:element name="pais" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="perfilProfesional" type="xs:string"/>
+                <xs:element name="experienciaProfesional">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="puesto" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="titulo" type="xs:string"/>
+                                        <xs:element name="empresa" type="xs:string"/>
+                                        <xs:element name="fechaInicio" type="xs:string"/>
+                                        <xs:element name="fechaFin" type="xs:string"/>
+                                        <xs:element name="descripcion" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="formacionAcademica">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="estudio" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="titulo" type="xs:string"/>
+                                        <xs:element name="centro" type="xs:string"/>
+                                        <xs:element name="localizacion" type="xs:string"/>
+                                        <xs:element name="fechaInicio" type="xs:string"/>
+                                        <xs:element name="fechaFin" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="otrosDatos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="dato" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="version" type="xs:string" use="required"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
