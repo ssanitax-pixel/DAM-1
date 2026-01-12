@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persona>
+  <nombre>Ana</nombre>
+  <apellidos>Sánchez Suárez</apellidos>
+  <telefonos>
+    <telefono>123456789</telefono>
+    <telefono>234567891</telefono>
+    <telefono>345678912</telefono>
+  </telefonos>
+</persona>
