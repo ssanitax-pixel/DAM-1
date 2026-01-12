@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>compilador.ssanitax.com</title>
+    <style>
+      :root {
+        --bg: #f3f4f6;
+        --panel: #ffffff;
+        --border: #d4d4d8;
+        --accent: #16a34a;
+        --text: #111827;
+        --terminal-bg: #111827;
+        --terminal-text: #e5e7eb;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0; min-height: 100vh;
+        font-family: system-ui, -apple-system, sans-serif;
+        background: radial-gradient(circle at top, #e5e7eb 0, #f9fafb 55%);
+        display: flex; justify-content: center; align-items: center;
+      }
+      .app-shell {
+        background: var(--panel); border-radius: 18px; border: 1px solid var(--border);
+        box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08); padding: 22px; width: 1000px;
+      }
+      .layout { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+      .panel { border: 1px solid #e4e4e7; border-radius: 14px; padding: 12px; display: flex; flex-direction: column; }
+      #editor { 
+        flex: 1; height: 350px; font-family: 'JetBrains Mono', monospace; 
+        background: #f9fafb; padding: 10px; border-radius: 8px; border: 1px solid #ddd; outline: none; 
+      }
+      #terminal-log { 
+        height: 315px; background: var(--terminal-bg); color: var(--terminal-text); 
+        font-family: monospace; padding: 10px; border-radius: 8px; overflow-y: auto; white-space: pre-wrap; 
+      }
+      .btn-main { 
+        margin-top: 10px; padding: 12px; background: var(--accent); color: white; 
+        border: none; border-radius: 999px; cursor: pointer; width: 100%; font-weight: bold; 
+      }
+      #terminal-input { 
+        margin-top: 10px; width: 100%; padding: 10px; border-radius: 8px; 
+        border: 1px solid var(--border); font-family: monospace;
+      }
+      .status { font-size: 12px; margin-top: 5px; color: #6b7280; }
+    </style>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header style="margin-bottom: 20px;">
+        <h1 style="font-size: 20px; margin: 0;">compilador.ssanitax.com</h1>
+        <div class="status" id="status-text">Estado: <span>listo</span></div>
+      </header>
+      <div class="layout">
+        <div class="panel">
+          <textarea id="editor" spellcheck="false">
+nombre = input("¿Cómo te llamas? ")
+print("Hola", nombre)
+edad = int(input("¿Qué edad tienes? "))
+print("El año que viene tendrás", edad + 1)</textarea>
+          <button id="run" class="btn-main">EJECUTAR PROGRAMA</button>
+        </div>
+        <div class="panel">
+          <pre id="terminal-log">$ Consola lista...</pre>
+          <input id="terminal-input" type="text" placeholder="Escribe aquí para input()..." />
+          <div class="status">Pulsa Enter para enviar datos a <code>stdin</code></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const editor = document.querySelector("#editor");
+      const terminalLog = document.querySelector("#terminal-log");
+      const terminalInput = document.querySelector("#terminal-input");
+      const runButton = document.querySelector("#run");
+      const statusText = document.querySelector("#status-text span");
+
+      let sessionId = null;
+      let readInterval = null;
+
+      function stopSession() {
+        if (readInterval) clearInterval(readInterval);
+        readInterval = null;
+        sessionId = null;
+        statusText.textContent = "finalizado";
+      }
+
+      function startReadLoop() {
+        readInterval = setInterval(() => {
+          if (!sessionId) return;
+          fetch("/api/read?session_id=" + encodeURIComponent(sessionId))
+            .then(r => r.json())
+            .then(data => {
+              if (data.output) {
+                terminalLog.textContent += data.output;
+                terminalLog.scrollTop = terminalLog.scrollHeight; // Nosotros mantenemos el scroll abajo
+              }
+              if (!data.alive) {
+                stopSession();
+              }
+            })
+            .catch(err => stopSession());
+        }, 300); // Nosotros consultamos cada 300ms
+      }
+
+      runButton.onclick = () => {
+        stopSession();
+        terminalLog.textContent = "$ python3 programa.py\n";
+        statusText.textContent = "iniciando...";
+        
+        fetch("/api/start", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ code: editor.value })
+        })
+        .then(r => r.json())
+        .then(data => {
+          if (data.session_id) {
+            sessionId = data.session_id;
+            statusText.textContent = "ejecutando";
+            startReadLoop();
+          }
+        });
+      };
+
+      terminalInput.onkeydown = (e) => {
+        if (e.key === "Enter" && sessionId) {
+          const line = terminalInput.value;
+          terminalLog.textContent += "> " + line + "\n"; // Eco local
+          
+          fetch("/api/write", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ session_id: sessionId, line: line })
+          });
+          terminalInput.value = "";
+        }
+      };
+    </script>
+  </body>
+</html>
