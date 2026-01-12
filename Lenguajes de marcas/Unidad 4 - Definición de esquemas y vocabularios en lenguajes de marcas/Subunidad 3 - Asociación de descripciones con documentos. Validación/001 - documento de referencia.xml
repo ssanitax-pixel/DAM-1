@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persona>
+  <nombre>Ana</nombre>
+  <apellidos>Sánchez Suárez</apellidos>
+  <telefonos>
+    <telefono>504934345</telefono>
+    <telefono>059685321</telefono>
+  </telefonos>
+</persona>
