@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS superaplicacion;
+USE superaplicacion;
+
+CREATE TABLE IF NOT EXISTS usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    usuario VARCHAR(50) NOT NULL UNIQUE,
+    contrasena VARCHAR(255) NOT NULL,
+    nombrecompleto VARCHAR(150) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE
+);
