@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Micro formulario</title>
+    <meta charset="utf-8">
+    <style>
+      /* Aplicamos un diseño centrado y limpio */
+      html, body { background: indigo; display: flex; justify-content: center; align-items: center; min-height: 100vh; font-family: sans-serif; }
+      form { width: 350px; padding: 30px; background: white; border-radius: 10px; display: flex; flex-direction: column; gap: 15px; }
+      input { padding: 12px; border: 1px solid #ccc; border-radius: 5px; }
+      input[type="submit"] { background: indigo; color: white; cursor: pointer; border: none; font-weight: bold; }
+    </style>
+  </head>
+  <body>
+    <form action="/envio" method="GET">
+      <input type="text" name="nombre" placeholder="Introduce tu nombre" required>
+      <input type="text" name="apellidos" placeholder="Introduce tus apellidos" required>
+      <input type="submit" value="Enviar Datos">
+    </form>
+  </body>
+</html>
