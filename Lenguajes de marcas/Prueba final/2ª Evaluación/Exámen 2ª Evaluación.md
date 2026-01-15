@@ -732,4 +732,585 @@ include 'inc/cabecera.php';
 <?php include 'inc/piedepagina.php'; ?>
 ```
 
+**finalizacion.php**
 
+- Mensaje de confirmación.
+- El pedido pasa a cocina.
+
+```
+<?php 
+// Iniciamos la sesión
+session_start();
+
+// Incluimos la cabecera común del sitio
+include 'inc/cabecera.php';
+?>
+
+<!-- ===========================
+     CONTENIDO PRINCIPAL
+     =========================== -->
+<main class="container" style="text-align: center; padding: 40px 20px;">
+
+    <!-- Tarjeta central de confirmación -->
+    <div style="background: white; padding: 40px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); max-width: 600px; margin: 0 auto;">
+
+        <!-- Icono visual decorativo -->
+        <div style="font-size: 4rem; margin-bottom: 20px;">
+            👨‍🍳
+        </div>
+
+        <!-- Título principal -->
+        <h1 style="color: #153e5c;">
+            ¡Marchando!
+        </h1>
+
+        <!-- Mensaje informativo para el cliente -->
+        <p style="font-size: 1.2rem; color: #555;">
+            Tu comanda ha llegado a la cocina y se está preparando ahora mismo.
+        </p>
+        
+        <!-- Contenedor de botones de acción -->
+        <div style="margin-top: 30px; display: flex; flex-direction: column; gap: 15px;">
+
+            <!-- Botón para volver al catálogo y pedir más -->
+            <a href="catalogo.php" class="btn-hero btn-carta" style="text-decoration: none; padding: 15px;">
+                Pedir otra ronda 🍻
+            </a>
+
+            <!-- Botón para ver el resumen de la mesa -->
+            <a href="historial.php" class="btn-hero btn-contacto" style="text-decoration: none; padding: 15px; background: #153e5c; color: white;">
+                Ver resumen de mi mesa 📝
+            </a>
+
+        </div>
+    </div>
+</main>
+
+<?php 
+// Incluimos el pie de página
+include 'inc/piedepagina.php'; 
+?>
+```
+
+**historial.php**
+
+- Resumen del pedido activo.
+- El usuario puede pedir la cuenta.
+   
+```
+<?php 
+// Iniciamos la sesión
+session_start();
+
+// Incluimos la cabecera común del sitio
+include 'inc/cabecera.php';
+?>
+
+<!-- ===========================
+     CONTENIDO PRINCIPAL
+     =========================== -->
+<main class="container" style="text-align: center; padding: 40px 20px;">
+
+    <!-- Tarjeta central de confirmación -->
+    <div style="background: white; padding: 40px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); max-width: 600px; margin: 0 auto;">
+
+        <!-- Icono visual decorativo -->
+        <div style="font-size: 4rem; margin-bottom: 20px;">
+            👨‍🍳
+        </div>
+
+        <!-- Título principal -->
+        <h1 style="color: #153e5c;">
+            ¡Marchando!
+        </h1>
+
+        <!-- Mensaje informativo para el cliente -->
+        <p style="font-size: 1.2rem; color: #555;">
+            Tu comanda ha llegado a la cocina y se está preparando ahora mismo.
+        </p>
+        
+        <!-- Contenedor de botones de acción -->
+        <div style="margin-top: 30px; display: flex; flex-direction: column; gap: 15px;">
+
+            <!-- Botón para volver al catálogo y pedir más -->
+            <a href="catalogo.php" class="btn-hero btn-carta" style="text-decoration: none; padding: 15px;">
+                Pedir otra ronda 🍻
+            </a>
+
+            <!-- Botón para ver el resumen de la mesa -->
+            <a href="historial.php" class="btn-hero btn-contacto" style="text-decoration: none; padding: 15px; background: #153e5c; color: white;">
+                Ver resumen de mi mesa 📝
+            </a>
+
+        </div>
+    </div>
+</main>
+
+<?php 
+// Incluimos el pie de página
+include 'inc/piedepagina.php'; 
+?>
+```
+
+**contacto.php**
+
+- Formulario informativo independiente del pedido.
+
+```
+<?php 
+// Iniciamos la sesión
+session_start();
+
+// Incluimos la cabecera común del sitio
+include 'inc/cabecera.php';
+?>
+
+<!-- ===========================
+     CONTENIDO PRINCIPAL
+     =========================== -->
+<main class="container" style="text-align: center; padding: 40px 20px;">
+
+    <!-- Tarjeta central de confirmación -->
+    <div style="background: white; padding: 40px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); max-width: 600px; margin: 0 auto;">
+
+        <!-- Icono visual decorativo -->
+        <div style="font-size: 4rem; margin-bottom: 20px;">
+            👨‍🍳
+        </div>
+
+        <!-- Título principal -->
+        <h1 style="color: #153e5c;">
+            ¡Marchando!
+        </h1>
+
+        <!-- Mensaje informativo para el cliente -->
+        <p style="font-size: 1.2rem; color: #555;">
+            Tu comanda ha llegado a la cocina y se está preparando ahora mismo.
+        </p>
+        
+        <!-- Contenedor de botones de acción -->
+        <div style="margin-top: 30px; display: flex; flex-direction: column; gap: 15px;">
+
+            <!-- Botón para volver al catálogo y pedir más -->
+            <a href="catalogo.php" class="btn-hero btn-carta" style="text-decoration: none; padding: 15px;">
+                Pedir otra ronda 🍻
+            </a>
+
+            <!-- Botón para ver el resumen de la mesa -->
+            <a href="historial.php" class="btn-hero btn-contacto" style="text-decoration: none; padding: 15px; background: #153e5c; color: white;">
+                Ver resumen de mi mesa 📝
+            </a>
+
+        </div>
+    </div>
+</main>
+
+<?php 
+// Incluimos el pie de página
+include 'inc/piedepagina.php'; 
+?>
+```
+
+**inc/front/cabecera.php**
+
+```
+<?php
+// Iniciamos la sesión si no está activa
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
+// Calculamos la cantidad total de productos en el carrito
+$cantidad_total = 0;
+if (isset($_SESSION['carrito'])) {
+    foreach ($_SESSION['carrito'] as $producto) {
+        $cantidad_total += $producto['cantidad'];
+    }
+}
+
+// Comprobamos si el usuario está conectado
+$usuario_conectado = isset($_SESSION['user_id']);
+$nombre_usuario = isset($_SESSION['nombre']) ? $_SESSION['nombre'] : 'Cliente';
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bar Bara</title>
+    <link rel="icon" type="image/png" href="img/logo_home.png">
+    
+    <!-- ===========================
+         ESTILOS DEL HEADER
+         =========================== -->
+    <style>
+        /* Estilos generales del body */
+        body { 
+            margin: 0; 
+            font-family: sans-serif; 
+            background-color: #f8f1e0; 
+        }
+        
+        /* Header azul superior */
+        .header-azul {
+            background-color: #153e5c;
+            height: 90px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end; 
+            padding: 0 5%;
+            position: relative;
+            z-index: 10;
+            border-bottom: 4px solid #eaa833;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        /* Logo superpuesto sobre el header */
+        .logo-superpuesto {
+            position: absolute;
+            top: -30px; 
+            left: 20px;
+            z-index: 100; 
+        }
+
+        .logo-superpuesto img {
+            height: 160px;
+            width: auto;
+            display: block;
+            filter: drop-shadow(0 10px 15px rgba(0,0,0,0.5));
+            transition: all 0.3s ease;
+        }
+
+        /* Lista del menú */
+        .menu-lista {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+            align-items: center;
+            margin: 0; padding: 0;
+        }
+
+        /* Enlaces del menú */
+        .menu-lista a {
+            color: #f8f1e0;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+        }
+
+        /* Botón del carrito/pedido */
+        .btn-pedido {
+            background-color: #c93b2b;
+            padding: 8px 15px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            color: white !important;
+            transition: transform 0.2s;
+        }
+
+        /* Badge que muestra la cantidad de productos */
+        .badge {
+            background: white;
+            color: #c93b2b;
+            padding: 2px 6px;
+            border-radius: 50%;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+
+        /* Mensaje de bienvenida del usuario */
+        .user-welcome { 
+            color: #eaa833; 
+            font-weight: bold; 
+            margin-right: 5px; 
+        }
+        
+        /* Responsive para móviles */
+        @media (max-width: 768px) {
+            .logo-superpuesto img { height: 110px; }
+            .logo-superpuesto { top: -15px; left: 10px; }
+            .menu-lista { gap: 12px; }
+            .ocultar-movil { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ===========================
+     HEADER PRINCIPAL
+     =========================== -->
+<header class="header-azul">
+
+    <!-- Logo superpuesto -->
+    <div class="logo-superpuesto">
+        <a href="index.php">
+            <img src="img/ChatGPT_Image_11_ene_2026__17_05_50-removebg-preview.png" alt="Logo Bar Bara">
+        </a>
+    </div>
+
+    <!-- Menú de navegación -->
+    <ul class="menu-lista">
+        <!-- Enlace a la carta -->
+        <li><a href="catalogo.php">Carta</a></li>
+        
+        <!-- Si el usuario está conectado -->
+        <?php if ($usuario_conectado): ?>
+            <li><a href="historial.php">Historial</a></li>
+            <li>
+                <!-- Mensaje de bienvenida -->
+                <span class="user-welcome ocultar-movil">
+                    Hola, <?php echo htmlspecialchars($nombre_usuario); ?>
+                </span>
+            </li>
+        <?php endif; ?>
+
+        <!-- Botón del carrito con badge -->
+        <li>
+            <a href="carrito.php" class="btn-pedido">
+                🛒 <span class="badge"><?php echo $cantidad_total; ?></span>
+            </a>
+        </li>
+
+        <!-- Enlace de login/logout según estado -->
+        <?php if ($usuario_conectado): ?>
+            <li>
+                <a href="logout.php" style="font-size: 0.75rem; border: 1px solid white; padding: 4px; border-radius: 5px;">
+                    Salir
+                </a>
+            </li>
+        <?php else: ?>
+            <li><a href="login.php">👤 Entrar</a></li>
+        <?php endif; ?>
+    </ul>
+</header>
+
+<!-- ===========================
+     ESPACIO DEL CONTENIDO
+     =========================== -->
+<div style="margin-top: 50px; padding: 20px; min-height: 80vh;">
+
+```
+
+**inc/front/piedepagina.php**
+
+```
+</div> <!-- Cierre del contenedor principal del contenido -->
+
+<!-- ===========================
+     FOOTER PRINCIPAL
+     =========================== -->
+<footer style="background: #2c3e50; color: white; text-align: center; padding: 20px; margin-top: auto; width: 100%;">
+
+    <!-- Texto de copyright -->
+    <p>&copy; 2026 Bar Bara - Todos los derechos reservados.</p>
+    
+    <!-- Dirección física de la empresa -->
+    <p style="font-size: 0.8em; color: #bdc3c7; margin-top: 10px;">
+        Calle Pedro Antonio de Alarcón, 17 - Granada, 18001
+    </p>
+
+</footer>
+
+</body>
+</html>
+```
+
+**back/index.php**
+
+```
+<?php
+// index.php en la raíz del back
+
+// Incluimos conexión a la base de datos
+require_once 'inc/conexion_bd.php';
+
+// Incluimos los controladores de Pedido y Producto
+require_once 'controladores/PedidoControlador.php';
+require_once 'controladores/ProductoControlador.php';
+
+// Instanciamos los controladores con la conexión PDO
+$pedidoCtrl = new PedidoControlador($pdo);
+$productoCtrl = new ProductoControlador($pdo);
+
+// --- LÓGICA DE ACCIONES ---
+
+// 1. Marcar pedido como entregado (Cocina)
+if (isset($_POST['entregar_id'])) {
+    $pedidoCtrl->marcarComoEntregado($_POST['entregar_id']);
+}
+
+// 2. Marcar pedido como pagado (Barra) y actualizar estado en la base
+if (isset($_POST['cobrar_id'])) {
+    $idPedido = $_POST['cobrar_id'];
+    $sql = "UPDATE pedido SET pedir_cuenta = 'PAGADO' WHERE id = ?";
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute([$idPedido]);
+}
+
+// Obtenemos los totales y pedidos desde la base
+try {
+    $totalProductos = count($productoCtrl->listarTodo());
+    
+    // COMANDAS POR SERVIR: solo las que NO están entregadas
+    $pendientes = $pdo->query("SELECT * FROM pedido WHERE pedir_cuenta IN ('NO', 'SI') ORDER BY hora ASC")->fetchAll();    
+
+    // ALERTAS DE COBRO: solo las que solicitan la cuenta
+    $alertas = $pdo->query("SELECT * FROM pedido WHERE pedir_cuenta IN ('SI', 'SI_ENTREGADO') ORDER BY hora ASC")->fetchAll();
+    
+    $conteoAlertas = count($alertas);
+} catch (Exception $e) {
+    die("Error en la base de datos: " . $e->getMessage());
+}
+?>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Bar Bara - Panel Unificado</title>
+
+    <!-- Enlace al CSS externo -->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <!-- Auto-refresh cada 30 segundos -->
+    <meta http-equiv="refresh" content="30">
+
+    <!-- Estilos internos rápidos -->
+    <style>
+        .seccion { margin-bottom: 40px; }
+        .titulo-seccion { padding: 10px; border-radius: 8px; margin-bottom: 20px; color: white; }
+    </style>
+</head>
+<body>
+
+<!-- ===========================
+     NAV / HEADER DEL PANEL
+     =========================== -->
+<nav>
+    <!-- Logo y título -->
+    <div class="logo">🍴 BAR BARA - PANEL DE CONTROL</div>
+
+    <!-- Estado rápido de productos totales -->
+    <div class="header-status">
+        <code>PRODUCTOS: <?php echo $totalProductos; ?></code>
+    </div>
+</nav>
+
+<!-- ===========================
+     CONTENIDO PRINCIPAL
+     =========================== -->
+<div class="container">
+    
+    <!-- ===========================
+         ALERTAS DE COBRO
+         =========================== -->
+    <div class="seccion">
+        <h2 class="titulo-seccion" style="background: var(--error);">
+            🔔 ALERTAS DE COBRO (<?php echo $conteoAlertas; ?>)
+        </h2>
+
+        <div class="grid-productos">
+            <?php if (empty($alertas)): ?>
+                <!-- Mensaje si no hay alertas -->
+                <div class="card"><h3>No hay mesas solicitando la cuenta.</h3></div>
+            <?php else: ?>
+                <!-- Iteramos sobre las alertas -->
+                <?php foreach($alertas as $a): ?>
+                    <div class="card" style="border-left: 10px solid var(--error); text-align: left;"> 
+                        <!-- Número de mesa y total -->
+                        <h2 style="margin:0">MESA <?php echo $a['numero_mesa']; ?></h2>
+                        <p><strong>Total a cobrar: <?php echo $a['total']; ?>€</strong></p>
+                        <p>Hora solicitud: <?php echo $a['hora']; ?></p>
+                        
+                        <!-- Formulario para marcar como cobrado -->
+                        <form method="POST">
+                            <input type="hidden" name="cobrar_id" value="<?php echo $a['id']; ?>">
+                            <button type="submit" class="button" style="background: var(--exito); width:100%; border:none; cursor:pointer; margin-top:10px;">
+                                💰 MARCAR COMO COBRADO
+                            </button>
+                        </form>
+                    </div>
+                <?php endforeach; ?>
+            <?php endif; ?>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- ===========================
+         COMANDAS POR SERVIR
+         =========================== -->
+    <div class="seccion">
+        <h2 class="titulo-seccion" style="background: var(--primario);">📥 COMANDAS POR SERVIR</h2>
+
+        <div class="grid-productos">
+            <?php if (empty($pendientes)): ?>
+                <!-- Mensaje si no hay comandas pendientes -->
+                <div class="card"><h3>Cero comandas pendientes.</h3></div>
+            <?php else: ?>
+                <!-- Iteramos sobre las comandas pendientes -->
+                <?php foreach ($pendientes as $p): ?>
+                    <div class="card" style="border-left: 10px solid var(--primario); text-align: left;"> 
+                        
+                        <!-- Número de mesa y hora -->
+                        <div style="display:flex; justify-content:space-between; align-items:center;">
+                            <h2 style="margin:0">MESA <?php echo $p['numero_mesa']; ?></h2>
+                            <span style="background:#eee; padding:5px 10px; border-radius:5px; font-weight:bold;">
+                                <?php echo date('H:i', strtotime($p['hora'])); ?>
+                            </span>
+                        </div>
+
+                        <hr style="margin: 10px 0; border: 0; border-top: 1px dashed #ccc;">
+
+                        <!-- Lista de productos en la comanda -->
+                        <ul style="padding-left: 20px; margin: 10px 0;">
+                            <?php 
+                            // Obtenemos productos y cantidades de este pedido
+                            $sqlDetalles = "SELECT cp.cantidad, prod.nombre_producto 
+                                            FROM contenido_pedido cp 
+                                            JOIN producto prod ON cp.producto_id = prod.id 
+                                            WHERE cp.pedido_id = ?";
+                            $stmtDetalles = $pdo->prepare($sqlDetalles);
+                            $stmtDetalles->execute([$p['id']]);
+                            $detalles = $stmtDetalles->fetchAll();
+
+                            foreach($detalles as $d): ?>
+                                <li style="font-size: 1.1rem; margin-bottom: 5px;">
+                                    <strong><?php echo $d['cantidad']; ?>x</strong> 
+                                    <?php echo htmlspecialchars($d['nombre_producto']); ?>
+                                </li>
+                            <?php endforeach; ?>
+                        </ul>
+
+                        <!-- Total de la mesa -->
+                        <p style="text-align: right; color: #666; font-size: 0.9rem;">
+                            Total: <?php echo $p['total']; ?>€
+                        </p>
+                        
+                        <!-- Formulario para marcar como entregado -->
+                        <form method="POST">
+                            <input type="hidden" name="entregar_id" value="<?php echo $p['id']; ?>">
+                            <button type="submit" class="button" style="background: var(--exito); width:100%; border:none; cursor:pointer;">
+                                ✅ MARCAR ENTREGADO
+                            </button>
+                        </form>
+                    </div>
+                <?php endforeach; ?>
+            <?php endif; ?>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+```
+
+---
+
+En este proyecto usamos HTML y CSS, que son lenguajes de marcas. El HTML es el que estructura toda la página: define los títulos, párrafos, imágenes, formularios, botones… básicamente todo lo que se ve en la web. Por ejemplo, cada página del bar, como el catálogo o el carrito, está hecha con HTML, y dentro ponemos etiquetas como `<h1>`, `<p>`, `<div>`, `<form>`… para organizar la información.
+
+El CSS es el que da estilo a todo eso: colores, tamaños, posiciones, bordes, sombras… gracias al CSS las páginas se ven bonitas y responsivas, y los botones y tarjetas de los productos no se ven planos ni aburridos. Por ejemplo, el logo del bar, los botones de “Añadir al pedido” o las alertas de cobro en el panel están todos estilizados con CSS.
+
+Entonces, los lenguajes de marcas se usan para estructurar y presentar la información al usuario, mientras que PHP se encarga de la lógica del servidor. Básicamente, HTML y CSS son el “cuerpo y la ropa” (como diría Alfonso) de la web, y PHP es el cerebro que hace que todo funcione.
