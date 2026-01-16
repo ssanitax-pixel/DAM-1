@@ -47,9 +47,11 @@ Directory structure:
 
 ---
 
-Voy a explicar la parte de programación del proyecto Bar Bara, archivo por archivo, que es como mejor se entiende lo que he aprendido.
+Voy a explicar la parte de programación del proyecto Bar Bara, y lo haré archivo por archivo, centrándome sobre todo en aquellos archivos que tienen lógica de programación.
 
-Voy a explicar qué hace cada archivo, qué código he escrito y qué he aprendido en el proceso.
+No todos los archivos del proyecto tienen el mismo peso a nivel de programación. Hay algunos que solo contienen HTML o sirven para reutilizar código visual, por lo que los mencionaré de forma más breve. He decidido centrarme más en los archivos donde realmente se ve la lógica, ya que son los que mejor reflejan lo que he aprendido en la asignatura.
+
+Cuando empecé el curso en septiembre no sabía prácticamente nada de programación, y ahora soy capaz de hacer una aplicación web que funciona con PHP y base de datos. Voy a explicar qué hace cada archivo, qué código he escrito y qué he aprendido en el proceso.
 
 ---
 
