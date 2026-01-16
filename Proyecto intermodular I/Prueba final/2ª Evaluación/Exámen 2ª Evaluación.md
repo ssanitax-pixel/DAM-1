@@ -48,7 +48,7 @@ Para desarrollar el proyecto hemos utilizado varias tecnologías que se compleme
 
 ## Qué hace el proyecto
 
-**Bar Bara** es una aplicación web pensada para facilitar la gestión de pedidos en un bar.
+Bar Bara es una aplicación web pensada para facilitar la gestión de pedidos en un bar.
 
 Desde el punto de vista del **cliente**, el proyecto permite:
 
