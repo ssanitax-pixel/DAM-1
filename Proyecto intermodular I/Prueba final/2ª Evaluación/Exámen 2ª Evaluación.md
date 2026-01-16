@@ -1,7 +1,5 @@
 ## Bar Bara - Proyecto Intermodular I
 
-# Examen de Proyecto Intermodular – 1º DAM
-
 ## Introducción
 
 Voy a explicar el proyecto Bar Bara, que hemos desarrollado durante estos últimos meses, centrándome en el proyecto en general y no en el código. La idea es explicar todo el trabajo realizado, las decisiones que hemos tomado y cómo los conocimientos de las distintas asignaturas se han unido para crear un proyecto completo y funcional.
