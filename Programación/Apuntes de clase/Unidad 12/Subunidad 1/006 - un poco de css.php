@@ -13,7 +13,7 @@
     <?php
       $OLLAMA_URL = "http://localhost:11434/api/generate";
       $MODEL = "qwen2.5-coder:7b";
-      $prompt = "Quién es Ana Sánchez. Responde en español.";
+      $prompt = "Quién es Ana Sánchez Suárez. Responde en español.";
       $data = [
           "model" => $MODEL,
           "prompt" => $prompt,
